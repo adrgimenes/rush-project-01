@@ -85,3 +85,16 @@ O jogo possui exatamente **dois finais de sobrevivência**:
 * **Estilo Visual:** Texturas *low-res*, modelos *low-poly* estilo anos 90 (estética PS1), sombreamento pontual de alto contraste e efeito de névoa volumétrica suave.
 * **Áudio Espacial (3D Sound):** Uso do sistema nativo de áudio da Unity com *Spatial Blend* em 3D total e curvas de atenuação customizadas para a motosserra e ruídos de passos em diferentes pisos.
 * **Inteligência Artificial:** Implementada via *Unity NavMesh* e máquina de estados finitos (`Patrulha` → `Investigação de Ruído` → `Perseguição` → `Varredura de Esconderijo`).
+
+## Referencias.
+![Referencia 01](./references/reference-01.jpg)
+
+![Referencia 02](./references/reference-02.png)
+
+![Referencia 03](./references/reference-03.jpg)
+
+![Referencia 04](./references/reference-04.jpg)
+
+![Referencia 05](./references/reference-05.webp)
+
+![Referencia 06](./references/reference-07.png)
