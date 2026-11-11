@@ -1,0 +1,40 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://scripts/inventory/collectible.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/icons/fuse.svg" id="icon"]
+[sub_resource type="StandardMaterial3D" id="Ceramic"]
+albedo_color = Color(0.78, 0.75, 0.65, 1)
+roughness = 0.65
+[sub_resource type="StandardMaterial3D" id="Metal"]
+albedo_color = Color(0.48, 0.46, 0.37, 1)
+metallic = 0.8
+roughness = 0.4
+[sub_resource type="CylinderMesh" id="Body"]
+top_radius = 0.035
+bottom_radius = 0.035
+height = 0.16
+radial_segments = 10
+material = SubResource("Ceramic")
+[sub_resource type="CylinderMesh" id="Cap"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.035
+radial_segments = 10
+material = SubResource("Metal")
+[sub_resource type="BoxShape3D" id="Shape"]
+size = Vector3(0.16, 0.28, 0.16)
+[node name="Fuse" type="Area3D"]
+script = ExtResource("script")
+icon = ExtResource("icon")
+item_id = &"Fusivel"
+item_name = "Fusível"
+monitoring = false
+[node name="Body" type="MeshInstance3D" parent="."]
+mesh = SubResource("Body")
+[node name="Top" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.08, 0)
+mesh = SubResource("Cap")
+[node name="Bottom" type="MeshInstance3D" parent="."]
+position = Vector3(0, -0.08, 0)
+mesh = SubResource("Cap")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("Shape")

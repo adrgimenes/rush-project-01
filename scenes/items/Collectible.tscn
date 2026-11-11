@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/inventory/collectible.gd" id="1"]
+[sub_resource type="BoxShape3D" id="Shape"]
+size = Vector3(0.2, 0.2, 0.2)
+[sub_resource type="BoxMesh" id="Mesh"]
+size = Vector3(0.16, 0.16, 0.16)
+[node name="Collectible" type="Area3D"]
+script = ExtResource("1")
+monitoring = false
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("Shape")
+[node name="Visual" type="MeshInstance3D" parent="."]
+mesh = SubResource("Mesh")

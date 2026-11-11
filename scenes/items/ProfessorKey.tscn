@@ -1,0 +1,181 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/collectible.gd" id="script"]
+
+[ext_resource type="Texture2D" path="res://assets/icons/professor_key.svg" id="icon"]
+
+[sub_resource type="StandardMaterial3D" id="Silver"]
+
+albedo_color = Color(0.55, 0.57, 0.58, 1)
+
+metallic = 0.85
+
+roughness = 0.4
+
+[sub_resource type="StandardMaterial3D" id="Plastic"]
+
+albedo_color = Color(0.045, 0.055, 0.06, 1)
+
+metallic = 0
+
+roughness = 0.4
+
+[sub_resource type="StandardMaterial3D" id="Paper"]
+
+albedo_color = Color(0.78, 0.77, 0.68, 1)
+
+metallic = 0
+
+roughness = 0.4
+
+[sub_resource type="TorusMesh" id="Bow"]
+
+inner_radius = 0.018
+
+outer_radius = 0.037
+
+rings = 12
+
+ring_segments = 6
+
+material = SubResource("Silver")
+
+[sub_resource type="TorusMesh" id="Ring"]
+
+inner_radius = 0.032
+
+outer_radius = 0.036
+
+rings = 12
+
+ring_segments = 6
+
+material = SubResource("Silver")
+
+[sub_resource type="BoxMesh" id="Shaft"]
+
+size = Vector3(0.1, 0.008, 0.016)
+
+material = SubResource("Silver")
+
+[sub_resource type="BoxMesh" id="Tooth17"]
+
+size = Vector3(0.012, 0.008, 0.013)
+
+material = SubResource("Silver")
+
+[sub_resource type="BoxMesh" id="Tooth20"]
+
+size = Vector3(0.012, 0.008, 0.013)
+
+material = SubResource("Silver")
+
+[sub_resource type="BoxMesh" id="Tooth23"]
+
+size = Vector3(0.012, 0.008, 0.013)
+
+material = SubResource("Silver")
+
+[sub_resource type="BoxMesh" id="Tag"]
+
+size = Vector3(0.12, 0.012, 0.055)
+
+material = SubResource("Plastic")
+
+[sub_resource type="BoxMesh" id="Label"]
+
+size = Vector3(0.095, 0.002, 0.039)
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxShape3D" id="PickupShape"]
+
+size = Vector3(0.34, 0.10, 0.13)
+
+[node name="ProfessorKey" type="Area3D"]
+
+script = ExtResource("script")
+
+item_id = &"Chave do Professor"
+
+item_name = "Chave do Professor"
+
+icon = ExtResource("icon")
+
+monitoring = false
+
+[node name="Bow" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.035, 0.01, 0)
+
+mesh = SubResource("Bow")
+
+scale = Vector3(1, 0.35, 1)
+
+[node name="Ring" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.018, 0.01, 0)
+
+mesh = SubResource("Ring")
+
+scale = Vector3(1, 0.35, 1)
+
+[node name="Shaft" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.105, 0.01, 0)
+
+mesh = SubResource("Shaft")
+
+[node name="Tooth17" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.145, 0.01, 0.012)
+
+mesh = SubResource("Tooth17")
+
+[node name="Tooth20" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.122, 0.01, 0.009)
+
+mesh = SubResource("Tooth20")
+
+[node name="Tooth23" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.108, 0.01, 0.013)
+
+mesh = SubResource("Tooth23")
+
+[node name="Tag" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.1, 0.009, 0)
+
+mesh = SubResource("Tag")
+
+[node name="Label" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.105, 0.016, 0)
+
+mesh = SubResource("Label")
+
+[node name="Text" type="Label3D" parent="."]
+
+position = Vector3(0.105, 0.018, 0)
+
+rotation = Vector3(-1.5707963, 0, 0)
+
+text = "PROF. 01"
+
+font_size = 32
+
+pixel_size = 0.00042
+
+modulate = Color(0.12, 0.12, 0.12, 1)
+
+outline_size = 0
+
+shaded = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+
+position = Vector3(0, 0.045, 0)
+
+shape = SubResource("PickupShape")

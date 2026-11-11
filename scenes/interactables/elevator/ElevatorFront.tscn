@@ -1,0 +1,300 @@
+[gd_scene format=3]
+
+[ext_resource type="Shader" path="res://shaders/props/elevator_steel.gdshader" id="steel_shader"]
+
+[ext_resource type="Script" path="res://scripts/interactables/elevator_power.gd" id="power_script"]
+
+[sub_resource type="StandardMaterial3D" id="Steel"]
+
+albedo_color = Color(0.48, 0.5, 0.51, 1)
+
+metallic = 0.8
+
+roughness = 0.32
+
+[sub_resource type="StandardMaterial3D" id="Frame"]
+
+albedo_color = Color(0.23, 0.25, 0.26, 1)
+
+metallic = 0.75
+
+roughness = 0.4
+
+[sub_resource type="StandardMaterial3D" id="Dark"]
+
+albedo_color = Color(0.025, 0.03, 0.033, 1)
+
+metallic = 0.2
+
+roughness = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Panel"]
+
+albedo_color = Color(0.6, 0.62, 0.63, 1)
+
+metallic = 0.8
+
+roughness = 0.25
+
+[sub_resource type="StandardMaterial3D" id="Light"]
+
+albedo_color = Color(0.65, 0.13, 0.06, 1)
+
+metallic = 0.0
+
+roughness = 0.35
+
+emission_enabled = true
+
+emission = Color(0.8, 0.15, 0.04, 1)
+
+emission_energy_multiplier = 1.5
+
+[sub_resource type="BoxMesh" id="Mesh_Recess"]
+
+size = Vector3(2.2, 2.5, 0.04)
+
+[sub_resource type="BoxMesh" id="Mesh_LeftJamb"]
+
+size = Vector3(0.16, 2.3, 0.18)
+
+[sub_resource type="BoxMesh" id="Mesh_RightJamb"]
+
+size = Vector3(0.16, 2.3, 0.18)
+
+[sub_resource type="BoxMesh" id="Mesh_Header"]
+
+size = Vector3(2.2, 0.22, 0.18)
+
+[sub_resource type="BoxMesh" id="Mesh_LeftDoor"]
+
+size = Vector3(0.885, 2.24, 0.065)
+
+[sub_resource type="BoxMesh" id="Mesh_RightDoor"]
+
+size = Vector3(0.885, 2.24, 0.065)
+
+[sub_resource type="BoxMesh" id="Mesh_LeftTrim"]
+
+size = Vector3(0.035, 2.25, 0.04)
+
+[sub_resource type="BoxMesh" id="Mesh_RightTrim"]
+
+size = Vector3(0.035, 2.25, 0.04)
+
+[sub_resource type="BoxMesh" id="Mesh_TopTrim"]
+
+size = Vector3(1.87, 0.035, 0.04)
+
+[sub_resource type="BoxMesh" id="Mesh_Threshold"]
+
+size = Vector3(1.9, 0.03, 0.25)
+
+[sub_resource type="BoxMesh" id="Mesh_Track0"]
+
+size = Vector3(1.8, 0.004, 0.012)
+
+[sub_resource type="BoxMesh" id="Mesh_Track1"]
+
+size = Vector3(1.8, 0.004, 0.012)
+
+[sub_resource type="BoxMesh" id="Mesh_Track2"]
+
+size = Vector3(1.8, 0.004, 0.012)
+
+[sub_resource type="BoxMesh" id="Mesh_DisplayFrame"]
+
+size = Vector3(0.32, 0.13, 0.025)
+
+[sub_resource type="BoxMesh" id="Mesh_Display"]
+
+size = Vector3(0.27, 0.09, 0.012)
+
+[sub_resource type="BoxMesh" id="Mesh_CallPanel"]
+
+size = Vector3(0.12, 0.27, 0.035)
+
+[sub_resource type="BoxMesh" id="Mesh_ButtonSocket"]
+
+size = Vector3(0.065, 0.065, 0.02)
+
+[sub_resource type="BoxMesh" id="Mesh_CallButton"]
+
+size = Vector3(0.042, 0.042, 0.01)
+
+[sub_resource type="ShaderMaterial" id="BrushedSteel"]
+
+shader = ExtResource("steel_shader")
+
+[sub_resource type="BoxShape3D" id="InteractionShape"]
+size = Vector3(2.2, 2.5, 0.08)
+
+[node name="ElevatorFront" type="Node3D"]
+script = ExtResource("power_script")
+
+[node name="Recess" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 1.25, 0.02)
+
+mesh = SubResource("Mesh_Recess")
+
+material_override = SubResource("Dark")
+
+[node name="LeftJamb" type="MeshInstance3D" parent="."]
+
+position = Vector3(-1.02, 1.15, 0.1)
+
+mesh = SubResource("Mesh_LeftJamb")
+
+material_override = SubResource("Frame")
+
+[node name="RightJamb" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.02, 1.15, 0.1)
+
+mesh = SubResource("Mesh_RightJamb")
+
+material_override = SubResource("Frame")
+
+[node name="Header" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 2.39, 0.1)
+
+mesh = SubResource("Mesh_Header")
+
+material_override = SubResource("Frame")
+
+[node name="LeftDoor" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.4525, 1.14, 0.075)
+
+mesh = SubResource("Mesh_LeftDoor")
+
+material_override = SubResource("BrushedSteel")
+
+[node name="RightDoor" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.4525, 1.14, 0.075)
+
+mesh = SubResource("Mesh_RightDoor")
+
+material_override = SubResource("BrushedSteel")
+
+[node name="LeftTrim" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.92, 1.14, 0.13)
+
+mesh = SubResource("Mesh_LeftTrim")
+
+material_override = SubResource("Panel")
+
+[node name="RightTrim" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.92, 1.14, 0.13)
+
+mesh = SubResource("Mesh_RightTrim")
+
+material_override = SubResource("Panel")
+
+[node name="TopTrim" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 2.275, 0.13)
+
+mesh = SubResource("Mesh_TopTrim")
+
+material_override = SubResource("Panel")
+
+[node name="Threshold" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 0.015, 0.12)
+
+mesh = SubResource("Mesh_Threshold")
+
+material_override = SubResource("Panel")
+
+[node name="Track0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 0.032, 0.04)
+
+mesh = SubResource("Mesh_Track0")
+
+material_override = SubResource("Dark")
+
+[node name="Track1" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 0.032, 0.1)
+
+mesh = SubResource("Mesh_Track1")
+
+material_override = SubResource("Dark")
+
+[node name="Track2" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 0.032, 0.16)
+
+mesh = SubResource("Mesh_Track2")
+
+material_override = SubResource("Dark")
+
+[node name="DisplayFrame" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 2.395, 0.205)
+
+mesh = SubResource("Mesh_DisplayFrame")
+
+material_override = SubResource("Panel")
+
+[node name="Display" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 2.395, 0.222)
+
+mesh = SubResource("Mesh_Display")
+
+material_override = SubResource("Dark")
+
+[node name="FloorNumber" type="Label3D" parent="."]
+
+position = Vector3(0, 2.395, 0.233)
+
+text = "03"
+
+font_size = 40
+
+pixel_size = 0.0016
+
+modulate = Color(1, 0.25, 0.09, 1)
+
+outline_size = 0
+
+no_depth_test = false
+
+[node name="CallPanel" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.02, 1.2, 0.215)
+
+mesh = SubResource("Mesh_CallPanel")
+
+material_override = SubResource("Panel")
+
+[node name="ButtonSocket" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.02, 1.2, 0.24)
+
+mesh = SubResource("Mesh_ButtonSocket")
+
+material_override = SubResource("Dark")
+
+[node name="CallButton" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.02, 1.2, 0.254)
+
+mesh = SubResource("Mesh_CallButton")
+
+material_override = SubResource("Light")
+
+
+[node name="Interaction" type="Area3D" parent="."]
+position = Vector3(0, 1.25, 0.3)
+monitoring = false
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Interaction"]
+shape = SubResource("InteractionShape")

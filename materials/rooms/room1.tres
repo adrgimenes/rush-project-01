@@ -1,0 +1,31 @@
+[gd_resource type="ShaderMaterial" load_steps=8 format=3]
+
+[ext_resource type="Shader" path="res://shaders/environment/room_surfaces.gdshader" id="shader"]
+
+[ext_resource type="Texture2D" path="res://assets/textures/lab_rooms/interior_floor/1K/Poliigon_TerrazzoTilePolished_4818_BaseColor.jpg" id="floor_color"]
+
+[ext_resource type="Texture2D" path="res://assets/textures/lab_rooms/interior_floor/1K/Poliigon_TerrazzoTilePolished_4818_Roughness.jpg" id="floor_roughness"]
+
+[ext_resource type="Texture2D" path="res://assets/textures/lab_rooms/interior_floor/1K/Poliigon_TerrazzoTilePolished_4818_Normal.png" id="floor_normal"]
+
+[ext_resource type="Texture2D" path="res://assets/textures/lab_rooms/interior_wall/RammedEarth018_COL_1K_METALNESS.png" id="wall_color"]
+
+[ext_resource type="Texture2D" path="res://assets/textures/lab_rooms/interior_wall/RammedEarth018_ROUGHNESS_1K_METALNESS.png" id="wall_roughness"]
+
+[ext_resource type="Texture2D" path="res://assets/textures/lab_rooms/interior_wall/RammedEarth018_NRM_1K_METALNESS.png" id="wall_normal"]
+
+[resource]
+
+shader = ExtResource("shader")
+
+shader_parameter/floor_color = ExtResource("floor_color")
+
+shader_parameter/floor_roughness = ExtResource("floor_roughness")
+
+shader_parameter/floor_normal = ExtResource("floor_normal")
+
+shader_parameter/wall_color = ExtResource("wall_color")
+
+shader_parameter/wall_roughness = ExtResource("wall_roughness")
+
+shader_parameter/wall_normal = ExtResource("wall_normal")

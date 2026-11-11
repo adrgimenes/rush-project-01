@@ -1,0 +1,297 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/collectible.gd" id="script"]
+
+[ext_resource type="Texture2D" path="res://assets/icons/access_card_01.svg" id="icon"]
+
+[sub_resource type="StandardMaterial3D" id="White"]
+
+albedo_color = Color( 0.88, 0.88, 0.85, 1)
+
+metallic = 0
+
+roughness = 0.55
+
+[sub_resource type="StandardMaterial3D" id="Metal"]
+
+albedo_color = Color( 0.42, 0.45, 0.47, 1)
+
+metallic = 0.7
+
+roughness = 0.55
+
+[sub_resource type="StandardMaterial3D" id="Dark"]
+
+albedo_color = Color( 0.025, 0.03, 0.035, 1)
+
+metallic = 0
+
+roughness = 0.55
+
+[sub_resource type="BoxMesh" id="Backing"]
+
+size = Vector3(0.18, 0.01, 0.115)
+
+material = SubResource("Metal")
+
+[sub_resource type="BoxMesh" id="WhiteFace"]
+
+size = Vector3(0.155, 0.005, 0.09)
+
+material = SubResource("White")
+
+[sub_resource type="BoxMesh" id="Stripe"]
+
+size = Vector3(0.15, 0.002, 0.012)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode0"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode1"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode2"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode3"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode4"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode5"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode6"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode7"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode8"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode9"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode10"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode11"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode12"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode13"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode14"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Barcode15"]
+
+size = Vector3(0.0015, 0.002, 0.014)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxShape3D" id="Pickup"]
+
+size = Vector3(0.22, 0.09, 0.15)
+
+[node name="AccessCard01" type="Area3D"]
+
+script = ExtResource("script")
+
+item_id = &"CartaoAcesso01"
+
+item_name = "Cartão de acesso nível 01"
+
+icon = ExtResource("icon")
+
+monitoring = false
+
+[node name="Backing" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 0.005, 0)
+
+mesh = SubResource("Backing")
+
+[node name="WhiteFace" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.008, 0.012, 0)
+
+mesh = SubResource("WhiteFace")
+
+[node name="Stripe" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 0.015, 0.041)
+
+mesh = SubResource("Stripe")
+
+[node name="Barcode0" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.069, 0.016, -0.028)
+
+mesh = SubResource("Barcode0")
+
+[node name="Barcode1" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.065, 0.016, -0.028)
+
+mesh = SubResource("Barcode1")
+
+[node name="Barcode2" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.061000000000000006, 0.016, -0.028)
+
+mesh = SubResource("Barcode2")
+
+[node name="Barcode3" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.05700000000000001, 0.016, -0.028)
+
+mesh = SubResource("Barcode3")
+
+[node name="Barcode4" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.053000000000000005, 0.016, -0.028)
+
+mesh = SubResource("Barcode4")
+
+[node name="Barcode5" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.049, 0.016, -0.028)
+
+mesh = SubResource("Barcode5")
+
+[node name="Barcode6" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.045000000000000005, 0.016, -0.028)
+
+mesh = SubResource("Barcode6")
+
+[node name="Barcode7" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.04100000000000001, 0.016, -0.028)
+
+mesh = SubResource("Barcode7")
+
+[node name="Barcode8" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.037000000000000005, 0.016, -0.028)
+
+mesh = SubResource("Barcode8")
+
+[node name="Barcode9" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.033, 0.016, -0.028)
+
+mesh = SubResource("Barcode9")
+
+[node name="Barcode10" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.029000000000000005, 0.016, -0.028)
+
+mesh = SubResource("Barcode10")
+
+[node name="Barcode11" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.02500000000000001, 0.016, -0.028)
+
+mesh = SubResource("Barcode11")
+
+[node name="Barcode12" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.021000000000000005, 0.016, -0.028)
+
+mesh = SubResource("Barcode12")
+
+[node name="Barcode13" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.017, 0.016, -0.028)
+
+mesh = SubResource("Barcode13")
+
+[node name="Barcode14" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.013000000000000005, 0.016, -0.028)
+
+mesh = SubResource("Barcode14")
+
+[node name="Barcode15" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.009000000000000008, 0.016, -0.028)
+
+mesh = SubResource("Barcode15")
+
+[node name="Level" type="Label3D" parent="."]
+
+position = Vector3(0, 0.016, 0)
+
+rotation = Vector3(-1.5707963, 0, 0)
+
+text = "ACESSO 01"
+
+font_size = 36
+
+pixel_size = 0.0005
+
+modulate = Color(0.08, 0.08, 0.08, 1)
+
+outline_size = 0
+
+shaded = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+
+position = Vector3(0, 0.04, 0)
+
+shape = SubResource("Pickup")

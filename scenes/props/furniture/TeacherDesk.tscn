@@ -1,0 +1,221 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Wood"]
+
+albedo_color = Color(0.25, 0.14, 0.07, 1)
+
+metallic = 0
+
+roughness = 0.7
+
+[sub_resource type="StandardMaterial3D" id="Steel"]
+
+albedo_color = Color(0.12, 0.13, 0.14, 1)
+
+metallic = 0.65
+
+roughness = 0.7
+
+[sub_resource type="BoxMesh" id="Desktop"]
+
+size = Vector3(1.65, 0.07, 0.75)
+
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="DesktopShape"]
+
+size = Vector3(1.65, 0.07, 0.75)
+
+[sub_resource type="BoxMesh" id="Leg7"]
+
+size = Vector3(0.055, 0.72, 0.055)
+
+material = SubResource("Steel")
+
+[sub_resource type="BoxShape3D" id="Leg7Shape"]
+
+size = Vector3(0.055, 0.72, 0.055)
+
+[sub_resource type="BoxMesh" id="Leg13"]
+
+size = Vector3(0.055, 0.72, 0.055)
+
+material = SubResource("Steel")
+
+[sub_resource type="BoxShape3D" id="Leg13Shape"]
+
+size = Vector3(0.055, 0.72, 0.055)
+
+[sub_resource type="BoxMesh" id="Leg19"]
+
+size = Vector3(0.055, 0.72, 0.055)
+
+material = SubResource("Steel")
+
+[sub_resource type="BoxShape3D" id="Leg19Shape"]
+
+size = Vector3(0.055, 0.72, 0.055)
+
+[sub_resource type="BoxMesh" id="Leg25"]
+
+size = Vector3(0.055, 0.72, 0.055)
+
+material = SubResource("Steel")
+
+[sub_resource type="BoxShape3D" id="Leg25Shape"]
+
+size = Vector3(0.055, 0.72, 0.055)
+
+[sub_resource type="BoxMesh" id="ModestyPanel"]
+
+size = Vector3(1.4, 0.42, 0.035)
+
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="ModestyPanelShape"]
+
+size = Vector3(1.4, 0.42, 0.035)
+
+[sub_resource type="BoxMesh" id="DrawerUnit"]
+
+size = Vector3(0.38, 0.28, 0.57)
+
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="DrawerUnitShape"]
+
+size = Vector3(0.38, 0.28, 0.57)
+
+[sub_resource type="BoxMesh" id="Drawer43"]
+
+size = Vector3(0.35, 0.11, 0.035)
+
+material = SubResource("Wood")
+
+[sub_resource type="BoxMesh" id="Handle46"]
+
+size = Vector3(0.13, 0.015, 0.025)
+
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="Drawer49"]
+
+size = Vector3(0.35, 0.11, 0.035)
+
+material = SubResource("Wood")
+
+[sub_resource type="BoxMesh" id="Handle52"]
+
+size = Vector3(0.13, 0.015, 0.025)
+
+material = SubResource("Steel")
+
+[node name="TeacherDesk" type="Node3D"]
+
+[node name="Desktop" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 0.765, 0)
+
+mesh = SubResource("Desktop")
+
+[node name="Body" type="StaticBody3D" parent="Desktop"]
+
+[node name="Shape" type="CollisionShape3D" parent="Desktop/Body"]
+
+shape = SubResource("DesktopShape")
+
+[node name="Leg7" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.72, 0.36, -0.28)
+
+mesh = SubResource("Leg7")
+
+[node name="Body" type="StaticBody3D" parent="Leg7"]
+
+[node name="Shape" type="CollisionShape3D" parent="Leg7/Body"]
+
+shape = SubResource("Leg7Shape")
+
+[node name="Leg13" type="MeshInstance3D" parent="."]
+
+position = Vector3(-0.72, 0.36, 0.28)
+
+mesh = SubResource("Leg13")
+
+[node name="Body" type="StaticBody3D" parent="Leg13"]
+
+[node name="Shape" type="CollisionShape3D" parent="Leg13/Body"]
+
+shape = SubResource("Leg13Shape")
+
+[node name="Leg19" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.72, 0.36, -0.28)
+
+mesh = SubResource("Leg19")
+
+[node name="Body" type="StaticBody3D" parent="Leg19"]
+
+[node name="Shape" type="CollisionShape3D" parent="Leg19/Body"]
+
+shape = SubResource("Leg19Shape")
+
+[node name="Leg25" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.72, 0.36, 0.28)
+
+mesh = SubResource("Leg25")
+
+[node name="Body" type="StaticBody3D" parent="Leg25"]
+
+[node name="Shape" type="CollisionShape3D" parent="Leg25/Body"]
+
+shape = SubResource("Leg25Shape")
+
+[node name="ModestyPanel" type="MeshInstance3D" parent="."]
+
+position = Vector3(0, 0.48, 0.27)
+
+mesh = SubResource("ModestyPanel")
+
+[node name="Body" type="StaticBody3D" parent="ModestyPanel"]
+
+[node name="Shape" type="CollisionShape3D" parent="ModestyPanel/Body"]
+
+shape = SubResource("ModestyPanelShape")
+
+[node name="DrawerUnit" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.5, 0.59, 0)
+
+mesh = SubResource("DrawerUnit")
+
+[node name="Body" type="StaticBody3D" parent="DrawerUnit"]
+
+[node name="Shape" type="CollisionShape3D" parent="DrawerUnit/Body"]
+
+shape = SubResource("DrawerUnitShape")
+
+[node name="Drawer43" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.5, 0.52, -0.3)
+
+mesh = SubResource("Drawer43")
+
+[node name="Handle46" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.5, 0.52, -0.325)
+
+mesh = SubResource("Handle46")
+
+[node name="Drawer49" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.5, 0.65, -0.3)
+
+mesh = SubResource("Drawer49")
+
+[node name="Handle52" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.5, 0.65, -0.325)
+
+mesh = SubResource("Handle52")
