@@ -1,0 +1,362 @@
+[
+  {
+    "room": "LaboratorioComputação01",
+    "width": 1.0,
+    "axis": 0,
+    "position": [
+      1.5,
+      0,
+      36.5
+    ]
+  },
+  {
+    "room": "SalaProfessor01",
+    "width": 1.0,
+    "axis": 0,
+    "position": [
+      -4.8,
+      0,
+      35.5
+    ]
+  },
+  {
+    "room": "SalaAbandonadaNorte",
+    "width": 0.9666670000000002,
+    "axis": 2,
+    "position": [
+      6.933334,
+      0,
+      80.3
+    ]
+  },
+  {
+    "room": "LaboratorioComputação02",
+    "width": 1.004445999999998,
+    "axis": 0,
+    "position": [
+      1.8,
+      0,
+      30.502223441570674
+    ]
+  },
+  {
+    "room": "LaboratorioComputação03",
+    "width": 1.0103712252487718,
+    "axis": 0,
+    "position": [
+      1.8,
+      0,
+      17.501853225248773
+    ]
+  },
+  {
+    "room": "SalaTCC",
+    "width": 0.9979019999999998,
+    "axis": 0,
+    "position": [
+      1.8,
+      0,
+      9.489507
+    ]
+  },
+  {
+    "room": "SalaProfessor02",
+    "width": 1.004445999999998,
+    "axis": 0,
+    "position": [
+      -4.8,
+      0,
+      29.4977772
+    ]
+  },
+  {
+    "room": "SalaProfessor03",
+    "width": 1.0103715000000015,
+    "axis": 0,
+    "position": [
+      -4.8,
+      0,
+      16.491482
+    ]
+  },
+  {
+    "room": "SalaProfessor04",
+    "width": 0.9979019999999998,
+    "axis": 0,
+    "position": [
+      -4.8,
+      0,
+      8.491605
+    ]
+  },
+  {
+    "room": "SalaProfessor05",
+    "width": 1.0,
+    "axis": 0,
+    "position": [
+      -3.8,
+      0,
+      -1.5
+    ]
+  },
+  {
+    "room": "SalaProfessor06",
+    "width": 0.8333334999999997,
+    "axis": 0,
+    "position": [
+      -3.8,
+      0,
+      -4.6666665
+    ]
+  },
+  {
+    "room": "SalaApresentação",
+    "width": 1.3333340000000007,
+    "axis": 2,
+    "position": [
+      13.833333,
+      0,
+      3.8
+    ]
+  },
+  {
+    "room": "SalaEscondida",
+    "width": 1.0,
+    "axis": 0,
+    "position": [
+      43.8,
+      0,
+      -1.0
+    ]
+  },
+  {
+    "room": "Secretaria",
+    "width": 1.0,
+    "axis": 2,
+    "position": [
+      38.5,
+      0,
+      33.966667
+    ]
+  },
+  {
+    "room": "AchadosEPerdidos",
+    "width": 1.0,
+    "axis": 2,
+    "position": [
+      39.5,
+      0,
+      28.533335
+    ]
+  },
+  {
+    "room": "BanheiroFemininoSul",
+    "width": 0.9333340000000021,
+    "axis": 0,
+    "position": [
+      31.7,
+      0,
+      26.233334
+    ]
+  },
+  {
+    "room": "BanheiroMasculinoSul",
+    "width": 0.9111119999999993,
+    "axis": 0,
+    "position": [
+      31.7,
+      0,
+      16.411112
+    ]
+  },
+  {
+    "room": "SalaDeAula01Sul",
+    "width": 1.0,
+    "axis": 2,
+    "position": [
+      38.5,
+      0,
+      12.855557
+    ]
+  },
+  {
+    "room": "SalaDeAula02Sul",
+    "width": 1.0,
+    "axis": 2,
+    "position": [
+      39.5,
+      0,
+      7.9777784
+    ]
+  },
+  {
+    "room": "SalaDeAulaExtra01",
+    "width": 0.9666619999999995,
+    "axis": 2,
+    "position": [
+      42.36667,
+      0,
+      52.8
+    ]
+  },
+  {
+    "room": "SalaVazia01",
+    "width": 1.0,
+    "axis": 0,
+    "position": [
+      44.3,
+      0,
+      50.3
+    ]
+  },
+  {
+    "room": "SalaDeFerramentas",
+    "width": 1.0,
+    "axis": 0,
+    "position": [
+      44.3,
+      0,
+      47.7
+    ]
+  },
+  {
+    "room": "SalaDaDispensa",
+    "width": 0.9999899999999968,
+    "axis": 0,
+    "position": [
+      3.3,
+      0,
+      94.49999
+    ]
+  },
+  {
+    "room": "SalaDeAulaNorte01",
+    "width": 1.0001100000000065,
+    "axis": 0,
+    "position": [
+      4.3,
+      0,
+      72.166556
+    ]
+  },
+  {
+    "room": "SalaDeAulaNorte02",
+    "width": 1.0001100000000065,
+    "axis": 0,
+    "position": [
+      -2.3,
+      0,
+      71.166446
+    ]
+  },
+  {
+    "room": "BanheiroMasculinoNorte",
+    "width": 0.9999256000000045,
+    "axis": 0,
+    "position": [
+      5.3,
+      0,
+      63.27763
+    ]
+  },
+  {
+    "room": "SalaDeAulaNorte03",
+    "width": 0.9999256000000045,
+    "axis": 0,
+    "position": [
+      -2.3,
+      0,
+      62.2777044
+    ]
+  },
+  {
+    "room": "BanheiroFemininoNorte",
+    "width": 0.9753109999999978,
+    "axis": 0,
+    "position": [
+      4.3,
+      0,
+      55.376545
+    ]
+  },
+  {
+    "room": "SalaDeAulaNorte04",
+    "width": 0.9753109999999978,
+    "axis": 0,
+    "position": [
+      -2.3,
+      0,
+      54.401234
+    ]
+  },
+  {
+    "room": "SalaDeAulaAlaNorte05",
+    "width": 0.9123439999999903,
+    "axis": 0,
+    "position": [
+      32.8,
+      0,
+      67.913574
+    ]
+  },
+  {
+    "room": "SalaVazia",
+    "width": 0.8765500000000088,
+    "axis": 0,
+    "position": [
+      27.153706,
+      0,
+      73.41358
+    ]
+  },
+  {
+    "room": "SalaMuseu",
+    "width": 0.9707799999999907,
+    "axis": 0,
+    "position": [
+      32.8,
+      0,
+      74.05514
+    ]
+  },
+  {
+    "room": "SalaSul",
+    "width": 1.0833360000000027,
+    "axis": 2,
+    "position": [
+      40.083332,
+      0,
+      89.36296
+    ]
+  },
+  {
+    "room": "SalaSecreta",
+    "width": 1.2123399999999975,
+    "axis": 0,
+    "position": [
+      32.8,
+      0,
+      92.48765
+    ]
+  },
+  {
+    "room": "SalaSecreta2",
+    "width": 0.905549999999991,
+    "axis": 0,
+    "position": [
+      27.175,
+      0,
+      88.88889
+    ]
+  },
+  {
+    "room": "SalaDeChaves",
+    "width": 0.7939609999999959,
+    "axis": 0,
+    "position": [
+      27.194445,
+      0,
+      93.100235
+    ]
+  }
+]

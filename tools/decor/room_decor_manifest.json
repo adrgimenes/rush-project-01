@@ -1,0 +1,343 @@
+[
+  {
+    "room": "LaboratorioComputação01",
+    "theme": "laboratory",
+    "meshes": 205,
+    "furniture": 11,
+    "size": [
+      12.299999,
+      8.0
+    ],
+    "path": "scenes/props/furniture/rooms/LaboratorioComputacao01Decor.tscn"
+  },
+  {
+    "room": "SalaProfessor01",
+    "theme": "office",
+    "meshes": 85,
+    "furniture": 3,
+    "size": [
+      10.6,
+      6.0
+    ],
+    "path": "scenes/props/furniture/rooms/SalaProfessor01Decor.tscn"
+  },
+  {
+    "room": "SalaProfessor01Secreta",
+    "theme": "office",
+    "meshes": 7,
+    "furniture": 0,
+    "size": [
+      3.0000000000000018,
+      3.5
+    ],
+    "path": "scenes/props/furniture/rooms/SalaProfessor01SecretaDecor.tscn"
+  },
+  {
+    "room": "Sala de Energia",
+    "theme": "power",
+    "meshes": 39,
+    "furniture": 1,
+    "size": [
+      5.3,
+      4.999989999999997
+    ],
+    "path": "scenes/props/furniture/rooms/Sala_de_EnergiaDecor.tscn"
+  },
+  {
+    "room": "SalaAbandonadaNorte",
+    "theme": "abandoned",
+    "meshes": 67,
+    "furniture": 2,
+    "size": [
+      5.2666688,
+      6.0
+    ],
+    "path": "scenes/props/furniture/rooms/SalaAbandonadaNorteDecor.tscn"
+  },
+  {
+    "room": "LaboratorioComputação02",
+    "theme": "laboratory",
+    "meshes": 187,
+    "furniture": 10,
+    "size": [
+      10.999998999999999,
+      7.004449000000001
+    ],
+    "path": "scenes/props/furniture/rooms/LaboratorioComputacao02Decor.tscn"
+  },
+  {
+    "room": "LaboratorioComputação03",
+    "theme": "laboratory",
+    "meshes": 331,
+    "furniture": 18,
+    "size": [
+      11.999998999999999,
+      9.010372000000002
+    ],
+    "path": "scenes/props/furniture/rooms/LaboratorioComputacao03Decor.tscn"
+  },
+  {
+    "room": "SalaTCC",
+    "theme": "presentation",
+    "meshes": 40,
+    "furniture": 3,
+    "size": [
+      5.0999996,
+      5.497902000000001
+    ],
+    "path": "scenes/props/furniture/rooms/SalaTCCDecor.tscn"
+  },
+  {
+    "room": "SalaProfessor02",
+    "theme": "office",
+    "meshes": 85,
+    "furniture": 3,
+    "size": [
+      10.0,
+      7.0044479999999965
+    ],
+    "path": "scenes/props/furniture/rooms/SalaProfessor02Decor.tscn"
+  },
+  {
+    "room": "SalaProfessor03",
+    "theme": "office",
+    "meshes": 85,
+    "furniture": 3,
+    "size": [
+      9.5,
+      7.010372000000002
+    ],
+    "path": "scenes/props/furniture/rooms/SalaProfessor03Decor.tscn"
+  },
+  {
+    "room": "SalaProfessor04",
+    "theme": "office",
+    "meshes": 85,
+    "furniture": 3,
+    "size": [
+      6.500000000000001,
+      5.497902
+    ],
+    "path": "scenes/props/furniture/rooms/SalaProfessor04Decor.tscn"
+  },
+  {
+    "room": "SalaProfessor05",
+    "theme": "office",
+    "meshes": 25,
+    "furniture": 1,
+    "size": [
+      4.500000000000001,
+      4.0
+    ],
+    "path": "scenes/props/furniture/rooms/SalaProfessor05Decor.tscn"
+  },
+  {
+    "room": "SalaProfessor06",
+    "theme": "office",
+    "meshes": 55,
+    "furniture": 2,
+    "size": [
+      3.3,
+      5.433332999999999
+    ],
+    "path": "scenes/props/furniture/rooms/SalaProfessor06Decor.tscn"
+  },
+  {
+    "room": "SalaApresentação",
+    "theme": "presentation",
+    "meshes": 18,
+    "furniture": 1,
+    "size": [
+      3.6333339999999996,
+      4.8
+    ],
+    "path": "scenes/props/furniture/rooms/SalaApresentacaoDecor.tscn"
+  },
+  {
+    "room": "SalaDeAulaExtra01",
+    "theme": "classroom",
+    "meshes": 51,
+    "furniture": 4,
+    "size": [
+      8.666663999999997,
+      5.0
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDeAulaExtra01Decor.tscn"
+  },
+  {
+    "room": "SalaVazia01",
+    "theme": "abandoned",
+    "meshes": 67,
+    "furniture": 2,
+    "size": [
+      6.599997999999999,
+      3.299999999999997
+    ],
+    "path": "scenes/props/furniture/rooms/SalaVazia01Decor.tscn"
+  },
+  {
+    "room": "SalaDeFerramentas",
+    "theme": "workshop",
+    "meshes": 90,
+    "furniture": 3,
+    "size": [
+      6.0,
+      8.199999999999996
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDeFerramentasDecor.tscn"
+  },
+  {
+    "room": "SalaDaDispensa",
+    "theme": "storage",
+    "meshes": 11,
+    "furniture": 0,
+    "size": [
+      2.0,
+      2.999989999999997
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDaDispensaDecor.tscn"
+  },
+  {
+    "room": "SalaDeAulaNorte01",
+    "theme": "classroom",
+    "meshes": 51,
+    "furniture": 4,
+    "size": [
+      6.000000000000001,
+      6.00012000000001
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDeAulaNorte01Decor.tscn"
+  },
+  {
+    "room": "SalaDeAulaNorte02",
+    "theme": "classroom",
+    "meshes": 40,
+    "furniture": 3,
+    "size": [
+      7.000000000000001,
+      5.00012000000001
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDeAulaNorte02Decor.tscn"
+  },
+  {
+    "room": "BanheiroMasculinoNorte",
+    "theme": "bathroom",
+    "meshes": 65,
+    "furniture": 7,
+    "size": [
+      9.0,
+      5.999928000000004
+    ],
+    "path": "scenes/props/furniture/rooms/BanheiroMasculinoNorteDecor.tscn"
+  },
+  {
+    "room": "SalaDeAulaNorte03",
+    "theme": "classroom",
+    "meshes": 29,
+    "furniture": 2,
+    "size": [
+      6.000000000000001,
+      4.999928000000004
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDeAulaNorte03Decor.tscn"
+  },
+  {
+    "room": "BanheiroFemininoNorte",
+    "theme": "bathroom",
+    "meshes": 58,
+    "furniture": 6,
+    "size": [
+      8.0,
+      5.975310999999998
+    ],
+    "path": "scenes/props/furniture/rooms/BanheiroFemininoNorteDecor.tscn"
+  },
+  {
+    "room": "SalaDeAulaNorte04",
+    "theme": "classroom",
+    "meshes": 29,
+    "furniture": 2,
+    "size": [
+      5.0,
+      4.975310999999998
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDeAulaNorte04Decor.tscn"
+  },
+  {
+    "room": "SalaDeAulaAlaNorte05",
+    "theme": "classroom",
+    "meshes": 29,
+    "furniture": 2,
+    "size": [
+      6.0,
+      4.91234399999999
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDeAulaAlaNorte05Decor.tscn"
+  },
+  {
+    "room": "SalaVazia",
+    "theme": "abandoned",
+    "meshes": 78,
+    "furniture": 3,
+    "size": [
+      4.0018519999999995,
+      4.876550000000009
+    ],
+    "path": "scenes/props/furniture/rooms/SalaVaziaDecor.tscn"
+  },
+  {
+    "room": "SalaMuseu",
+    "theme": "museum",
+    "meshes": 23,
+    "furniture": 4,
+    "size": [
+      7.0,
+      6.970779999999991
+    ],
+    "path": "scenes/props/furniture/rooms/SalaMuseuDecor.tscn"
+  },
+  {
+    "room": "SalaSul",
+    "theme": "storage",
+    "meshes": 78,
+    "furniture": 3,
+    "size": [
+      5.083336000000003,
+      5.0
+    ],
+    "path": "scenes/props/furniture/rooms/SalaSulDecor.tscn"
+  },
+  {
+    "room": "SalaSecreta",
+    "theme": "secret",
+    "meshes": 51,
+    "furniture": 2,
+    "size": [
+      4.0,
+      5.2123399999999975
+    ],
+    "path": "scenes/props/furniture/rooms/SalaSecretaDecor.tscn"
+  },
+  {
+    "room": "SalaSecreta2",
+    "theme": "secret",
+    "meshes": 51,
+    "furniture": 2,
+    "size": [
+      6.0,
+      6.905549999999991
+    ],
+    "path": "scenes/props/furniture/rooms/SalaSecreta2Decor.tscn"
+  },
+  {
+    "room": "SalaDeChaves",
+    "theme": "keys",
+    "meshes": 53,
+    "furniture": 1,
+    "size": [
+      6.0,
+      4.801860000000005
+    ],
+    "path": "scenes/props/furniture/rooms/SalaDeChavesDecor.tscn"
+  }
+]

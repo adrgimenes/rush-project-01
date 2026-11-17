@@ -10,16 +10,51 @@
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/ClassroomSouth01Decor.tscn" id="classroom_south_01_decor"]
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/ClassroomSouth02Decor.tscn" id="classroom_south_02_decor"]
 [ext_resource type="PackedScene" path="res://scenes/items/Fuse.tscn" id="collectible_fuse"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/CorridorIndustrialDecor.tscn" id="corridor_industrial_decor"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/BanheiroFemininoNorteDecor.tscn" id="decor_all_BanheiroFemininoNorte"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/BanheiroMasculinoNorteDecor.tscn" id="decor_all_BanheiroMasculinoNorte"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/LaboratorioComputacao01Decor.tscn" id="decor_all_LaboratorioComputacao01"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/LaboratorioComputacao02Decor.tscn" id="decor_all_LaboratorioComputacao02"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/LaboratorioComputacao03Decor.tscn" id="decor_all_LaboratorioComputacao03"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaAbandonadaNorteDecor.tscn" id="decor_all_SalaAbandonadaNorte"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaApresentacaoDecor.tscn" id="decor_all_SalaApresentacao"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDaDispensaDecor.tscn" id="decor_all_SalaDaDispensa"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDeAulaAlaNorte05Decor.tscn" id="decor_all_SalaDeAulaAlaNorte05"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDeAulaExtra01Decor.tscn" id="decor_all_SalaDeAulaExtra01"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDeAulaNorte01Decor.tscn" id="decor_all_SalaDeAulaNorte01"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDeAulaNorte02Decor.tscn" id="decor_all_SalaDeAulaNorte02"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDeAulaNorte03Decor.tscn" id="decor_all_SalaDeAulaNorte03"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDeAulaNorte04Decor.tscn" id="decor_all_SalaDeAulaNorte04"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDeChavesDecor.tscn" id="decor_all_SalaDeChaves"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaDeFerramentasDecor.tscn" id="decor_all_SalaDeFerramentas"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaMuseuDecor.tscn" id="decor_all_SalaMuseu"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaProfessor01Decor.tscn" id="decor_all_SalaProfessor01"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaProfessor01SecretaDecor.tscn" id="decor_all_SalaProfessor01Secreta"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaProfessor02Decor.tscn" id="decor_all_SalaProfessor02"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaProfessor03Decor.tscn" id="decor_all_SalaProfessor03"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaProfessor04Decor.tscn" id="decor_all_SalaProfessor04"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaProfessor05Decor.tscn" id="decor_all_SalaProfessor05"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaProfessor06Decor.tscn" id="decor_all_SalaProfessor06"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaSecretaDecor.tscn" id="decor_all_SalaSecreta"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaSecreta2Decor.tscn" id="decor_all_SalaSecreta2"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaSulDecor.tscn" id="decor_all_SalaSul"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaTCCDecor.tscn" id="decor_all_SalaTCC"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaVaziaDecor.tscn" id="decor_all_SalaVazia"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/SalaVazia01Decor.tscn" id="decor_all_SalaVazia01"]
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/rooms/Sala_de_EnergiaDecor.tscn" id="decor_all_Sala_de_Energia"]
 [ext_resource type="PackedScene" path="res://scenes/interactables/elevator/ElevatorFront.tscn" id="elevator_front"]
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/FemaleBathroomSouthDecor.tscn" id="female_bathroom_decor"]
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/HiddenRoomDecor.tscn" id="hidden_room_decor"]
+[ext_resource type="Environment" uid="uid://dncjbo501hwrv" path="res://environments/horror_darkness.tres" id="horror_darkness"]
 [ext_resource type="Script" uid="uid://ciu3gv0y2rwfw" path="res://scripts/characters/enemies/level_navigation.gd" id="level_navigation"]
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/LoreCabinet.tscn" id="lore_cabinet"]
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/LostAndFoundDecor.tscn" id="lost_found_decor"]
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/MaleBathroomSouthDecor.tscn" id="male_bathroom_decor"]
 [ext_resource type="PackedScene" path="res://scenes/interactables/power/PowerPanel.tscn" id="power_panel"]
 [ext_resource type="PackedScene" path="res://scenes/items/ProfessorKey.tscn" id="professor_key"]
+[ext_resource type="PackedScene" path="res://scenes/effects/RetroHorrorFilter.tscn" id="retro_horror_filter"]
 [ext_resource type="Material" path="res://materials/rooms/room1.tres" id="room1_material"]
+[ext_resource type="PackedScene" path="res://scenes/interactables/doors/RoomDoor.tscn" id="room_door_unlocked"]
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/ComputerScienceOfficeDecor.tscn" id="secretaria_decor"]
 [ext_resource type="PackedScene" path="res://scenes/interactables/doors/SecretDoor.tscn" id="secret_door"]
 [ext_resource type="PackedScene" path="res://scenes/props/furniture/TeacherDesk.tscn" id="teacher_desk"]
@@ -12138,6 +12173,8 @@ mesh_data = SubResource("Resource_aiu7x")
 collision_mode = 2
 metadata/_custom_type_script = "uid://cp01tx4fxrgim"
 
+[node name="DecorCorredores" parent="Level" unique_id=1583408908 instance=ExtResource("corridor_industrial_decor")]
+
 [node name="LaboratorioComputação01" type="MeshInstance3D" parent="." unique_id=1150689680]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_p1kq7")
@@ -12150,6 +12187,12 @@ transform = Transform3D(7.54979e-08, 0, 1, 0, 1, 0, -1, 0, 7.54979e-08, 12.9, 0,
 
 [node name="ProfessorKey" parent="LaboratorioComputação01" unique_id=353906985 instance=ExtResource("professor_key")]
 transform = Transform3D(0.921061, 0, 0.38941833, 0, 1, 0, -0.38941833, 0, 0.921061, 12.7, 0.802, 35.8)
+
+[node name="Decor" parent="LaboratorioComputação01" unique_id=855181753 instance=ExtResource("decor_all_LaboratorioComputacao01")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0, 31.5)
+
+[node name="RoomDoor" parent="LaboratorioComputação01" unique_id=1044849990 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.5, 0, 36.5)
 
 [node name="Player" type="CharacterBody3D" parent="." unique_id=1520612355]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3850985, 0.05, 0.9618263)
@@ -12165,6 +12208,12 @@ mesh = SubResource("ArrayMesh_rgim3")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_0chjk")
 collision_mode = 2
+
+[node name="Decor" parent="SalaProfessor01" unique_id=1207861791 instance=ExtResource("decor_all_SalaProfessor01")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.1, 0, 33.5)
+
+[node name="RoomDoor" parent="SalaProfessor01" unique_id=1143903705 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.8, 0, 35.5)
 
 [node name="SalaProfessor01Secreta" type="MeshInstance3D" parent="." unique_id=264656656]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12184,6 +12233,9 @@ transform = Transform3D(0.9553365, 0, 0.29552022, 0, 1, 0, -0.29552022, 0, 0.955
 
 [node name="LoreCabinet" parent="SalaProfessor01Secreta" unique_id=132021944 instance=ExtResource("lore_cabinet")]
 transform = Transform3D(7.54979e-08, 0, 1, 0, 1, 0, -1, 0, 7.54979e-08, -17.85, 0, 36)
+
+[node name="Decor" parent="SalaProfessor01Secreta" unique_id=1124082661 instance=ExtResource("decor_all_SalaProfessor01Secreta")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.1, 0, 35)
 
 [node name="Elevador" type="MeshInstance3D" parent="." unique_id=1979078921]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12212,6 +12264,9 @@ Requer Acesso 01."
 [node name="PowerPanel" parent="Sala de Energia" unique_id=1831251609 instance=ExtResource("power_panel")]
 transform = Transform3D(7.54979e-08, 0, 1, 0, 1, 0, -1, 0, 7.54979e-08, -6.35, 0, 94)
 
+[node name="Decor" parent="Sala de Energia" unique_id=270998065 instance=ExtResource("decor_all_Sala_de_Energia")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5, 0, 91.5)
+
 [node name="SalaAbandonadaNorte" type="MeshInstance3D" parent="." unique_id=707533085]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_jaxic")
@@ -12221,6 +12276,12 @@ collision_mode = 2
 
 [node name="Fuse" parent="SalaAbandonadaNorte" unique_id=400457346 instance=ExtResource("collectible_fuse")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.280838, 1.35, 76.82497)
+
+[node name="Decor" parent="SalaAbandonadaNorte" unique_id=1320097051 instance=ExtResource("decor_all_SalaAbandonadaNorte")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.96667, 0, 74.3)
+
+[node name="RoomDoor" parent="SalaAbandonadaNorte" unique_id=1686677813 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-0.966667, 0, -8.742278e-08, 0, 1, 0, 8.450871e-08, 0, -1, 6.933334, 0, 80.3)
 
 [node name="DownStairs" type="MeshInstance3D" parent="." unique_id=566345281]
 transform = Transform3D(-3.4619418e-07, 0, -1, 0, 1, 0, 7.92, 0, -4.371139e-08, 34.25, -2.5, 50.449997)
@@ -12243,12 +12304,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_rqet7")
 collision_mode = 2
 
+[node name="Decor" parent="LaboratorioComputação02" unique_id=1020179543 instance=ExtResource("decor_all_LaboratorioComputacao02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, 24.09777)
+
+[node name="RoomDoor" parent="LaboratorioComputação02" unique_id=1239669388 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.390573e-08, 0, 1, 0, 1, 0, -1.004446, 0, -4.371139e-08, 1.8, 0, 30.502224)
+
 [node name="LaboratorioComputação03" type="MeshInstance3D" parent="." unique_id=1822906773]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_rlitq")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_3wa6b")
 collision_mode = 2
+
+[node name="Decor" parent="LaboratorioComputação03" unique_id=2131588796 instance=ExtResource("decor_all_LaboratorioComputacao03")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, 12.49148)
+
+[node name="RoomDoor" parent="LaboratorioComputação03" unique_id=380532310 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.416473e-08, 0, 1, 0, 1, 0, -1.0103712, 0, -4.371139e-08, 1.8, 0, 17.501854)
 
 [node name="SalaTCC" type="MeshInstance3D" parent="." unique_id=266806454]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12257,12 +12330,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_kl8qj")
 collision_mode = 2
 
+[node name="Decor" parent="SalaTCC" unique_id=613320729 instance=ExtResource("decor_all_SalaTCC")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 0, 4.2916)
+
+[node name="RoomDoor" parent="SalaTCC" unique_id=812958747 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.3619682e-08, 0, 1, 0, 1, 0, -0.997902, 0, -4.371139e-08, 1.8, 0, 9.489507)
+
 [node name="SalaProfessor02" type="MeshInstance3D" parent="." unique_id=1007733691]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_ychbw")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_a108v")
 collision_mode = 2
+
+[node name="Decor" parent="SalaProfessor02" unique_id=1680933727 instance=ExtResource("decor_all_SalaProfessor02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8, 0, 24.49778)
+
+[node name="RoomDoor" parent="SalaProfessor02" unique_id=1000290431 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.390573e-08, 0, -1, 0, 1, 0, 1.004446, 0, -4.371139e-08, -4.8, 0, 29.497778)
 
 [node name="SalaProfessor03" type="MeshInstance3D" parent="." unique_id=381415654]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12271,12 +12356,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_xqp57")
 collision_mode = 2
 
+[node name="Decor" parent="SalaProfessor03" unique_id=600925298 instance=ExtResource("decor_all_SalaProfessor03")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3, 0, 15.99148)
+
+[node name="RoomDoor" parent="SalaProfessor03" unique_id=1106816197 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.416474e-08, 0, -1, 0, 1, 0, 1.0103714, 0, -4.371139e-08, -4.8, 0, 16.491482)
+
 [node name="SalaProfessor04" type="MeshInstance3D" parent="." unique_id=324659889]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_xc0jk")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_p24s7")
 collision_mode = 2
+
+[node name="Decor" parent="SalaProfessor04" unique_id=279300343 instance=ExtResource("decor_all_SalaProfessor04")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.3, 0, 4.4916)
+
+[node name="RoomDoor" parent="SalaProfessor04" unique_id=1839975032 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.3619682e-08, 0, -1, 0, 1, 0, 0.997902, 0, -4.371139e-08, -4.8, 0, 8.491605)
 
 [node name="SalaProfessor05" type="MeshInstance3D" parent="." unique_id=1920596037]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12285,6 +12382,12 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_qeo0h")
 collision_mode = 2
 
+[node name="Decor" parent="SalaProfessor05" unique_id=1295061777 instance=ExtResource("decor_all_SalaProfessor05")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.3, 0, -1.8)
+
+[node name="RoomDoor" parent="SalaProfessor05" unique_id=480751908 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3.8, 0, -1.5)
+
 [node name="SalaProfessor06" type="MeshInstance3D" parent="." unique_id=548696130]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_bnbgw")
@@ -12292,12 +12395,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_in0us")
 collision_mode = 2
 
+[node name="Decor" parent="SalaProfessor06" unique_id=1651047342 instance=ExtResource("decor_all_SalaProfessor06")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.1, 0, -8.66667)
+
+[node name="RoomDoor" parent="SalaProfessor06" unique_id=1526019747 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-3.6426165e-08, 0, -1, 0, 1, 0, 0.8333335, 0, -4.371139e-08, -3.8, 0, -4.6666665)
+
 [node name="SalaApresentação" type="MeshInstance3D" parent="." unique_id=1784601884]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_ehjsc")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_0x7q8")
 collision_mode = 2
+
+[node name="Decor" parent="SalaApresentação" unique_id=1141994168 instance=ExtResource("decor_all_SalaApresentacao")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.83333, 0, 3.8)
+
+[node name="RoomDoor" parent="SalaApresentação" unique_id=354303767 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(1.333334, 0, 0, 0, 1, 0, 0, 0, 1, 13.833333, 0, 3.8)
 
 [node name="SalaEscondida" type="MeshInstance3D" parent="." unique_id=1456488039]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12308,6 +12423,9 @@ collision_mode = 2
 
 [node name="Decor" parent="SalaEscondida" unique_id=1191758961 instance=ExtResource("hidden_room_decor")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.8, 0, -3)
+
+[node name="RoomDoor" parent="SalaEscondida" unique_id=1925128149 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 43.8, 0, -1)
 
 [node name="Butcher" parent="." unique_id=1711559465 instance=ExtResource("butcher")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3850985, 0, -1.8)
@@ -12325,6 +12443,9 @@ collision_mode = 2
 [node name="Decor" parent="Secretaria" unique_id=2078805339 instance=ExtResource("secretaria_decor")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 0, 33.966667)
 
+[node name="RoomDoor" parent="Secretaria" unique_id=1673027284 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.5, 0, 33.966667)
+
 [node name="AchadosEPerdidos" type="MeshInstance3D" parent="." unique_id=120964876]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_ugj31")
@@ -12334,6 +12455,9 @@ collision_mode = 2
 
 [node name="Decor" parent="AchadosEPerdidos" unique_id=711866128 instance=ExtResource("lost_found_decor")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 0, 24.533335)
+
+[node name="RoomDoor" parent="AchadosEPerdidos" unique_id=1069344231 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 39.5, 0, 28.533335)
 
 [node name="BanheiroFemininoSul" type="MeshInstance3D" parent="." unique_id=72478932]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12345,6 +12469,9 @@ collision_mode = 2
 [node name="Decor" parent="BanheiroFemininoSul" unique_id=641851821 instance=ExtResource("female_bathroom_decor")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.7, 0, 22.233334)
 
+[node name="RoomDoor" parent="BanheiroFemininoSul" unique_id=538977512 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.0797325e-08, 0, -1, 0, 1, 0, 0.933334, 0, -4.371139e-08, 31.7, 0, 26.233334)
+
 [node name="BanheiroMasculinoSul" type="MeshInstance3D" parent="." unique_id=55973073]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_g73ce")
@@ -12354,6 +12481,9 @@ collision_mode = 2
 
 [node name="Decor" parent="BanheiroMasculinoSul" unique_id=17381192 instance=ExtResource("male_bathroom_decor")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.7, 0, 12.411112)
+
+[node name="RoomDoor" parent="BanheiroMasculinoSul" unique_id=711805801 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-3.982597e-08, 0, -1, 0, 1, 0, 0.911112, 0, -4.371139e-08, 31.7, 0, 16.411112)
 
 [node name="SalaDeAula01Sul" type="MeshInstance3D" parent="." unique_id=834847592]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12365,6 +12495,9 @@ collision_mode = 2
 [node name="Decor" parent="SalaDeAula01Sul" unique_id=1456911255 instance=ExtResource("classroom_south_01_decor")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 0, 12.855557)
 
+[node name="RoomDoor" parent="SalaDeAula01Sul" unique_id=1965547368 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.5, 0, 12.855557)
+
 [node name="SalaDeAula02Sul" type="MeshInstance3D" parent="." unique_id=1417063822]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_jqnsd")
@@ -12375,12 +12508,21 @@ collision_mode = 2
 [node name="Decor" parent="SalaDeAula02Sul" unique_id=1277914204 instance=ExtResource("classroom_south_02_decor")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 0, 2.9777784)
 
+[node name="RoomDoor" parent="SalaDeAula02Sul" unique_id=819870696 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 39.5, 0, 7.9777784)
+
 [node name="SalaDeAulaExtra01" type="MeshInstance3D" parent="." unique_id=1268446027]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_p00ut")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_77bx8")
 collision_mode = 2
+
+[node name="Decor" parent="SalaDeAulaExtra01" unique_id=1926225125 instance=ExtResource("decor_all_SalaDeAulaExtra01")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.16667, 0, 52.8)
+
+[node name="RoomDoor" parent="SalaDeAulaExtra01" unique_id=788416931 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(0.966662, 0, 0, 0, 1, 0, 0, 0, 1, 42.36667, 0, 52.8)
 
 [node name="SalaVazia01" type="MeshInstance3D" parent="." unique_id=1396407708]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12389,6 +12531,12 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_6pnn3")
 collision_mode = 2
 
+[node name="Decor" parent="SalaVazia01" unique_id=1644719775 instance=ExtResource("decor_all_SalaVazia01")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.3, 0, 49)
+
+[node name="RoomDoor" parent="SalaVazia01" unique_id=702226011 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 44.3, 0, 50.3)
+
 [node name="SalaDeFerramentas" type="MeshInstance3D" parent="." unique_id=1245636858]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_s23rg")
@@ -12396,12 +12544,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_3hu4i")
 collision_mode = 2
 
+[node name="Decor" parent="SalaDeFerramentas" unique_id=773141097 instance=ExtResource("decor_all_SalaDeFerramentas")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.3, 0, 39.7)
+
+[node name="RoomDoor" parent="SalaDeFerramentas" unique_id=883544432 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 44.3, 0, 47.7)
+
 [node name="SalaDaDispensa" type="MeshInstance3D" parent="." unique_id=1996192800]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_l31fa")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_e6a4r")
 collision_mode = 2
+
+[node name="Decor" parent="SalaDaDispensa" unique_id=1122763363 instance=ExtResource("decor_all_SalaDaDispensa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3, 0, 92.5)
+
+[node name="RoomDoor" parent="SalaDaDispensa" unique_id=129721878 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.371095e-08, 0, 1, 0, 1, 0, -0.99999, 0, -4.371139e-08, 3.3, 0, 94.49999)
 
 [node name="Pilar" type="MeshInstance3D" parent="." unique_id=1417662723]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34, 0, 83.5)
@@ -12431,12 +12591,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_1gh7g")
 collision_mode = 2
 
+[node name="Decor" parent="SalaDeAulaNorte01" unique_id=290935488 instance=ExtResource("decor_all_SalaDeAulaNorte01")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3, 0, 67.16644)
+
+[node name="RoomDoor" parent="SalaDeAulaNorte01" unique_id=378996583 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.37162e-08, 0, 1, 0, 1, 0, -1.00011, 0, -4.371139e-08, 4.3, 0, 72.16656)
+
 [node name="SalaDeAulaNorte02" type="MeshInstance3D" parent="." unique_id=2102205427]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_stpnn")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_ue1ex")
 collision_mode = 2
+
+[node name="Decor" parent="SalaDeAulaNorte02" unique_id=1670539322 instance=ExtResource("decor_all_SalaDeAulaNorte02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.3, 0, 68.16644)
+
+[node name="RoomDoor" parent="SalaDeAulaNorte02" unique_id=1811163717 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.37162e-08, 0, -1, 0, 1, 0, 1.00011, 0, -4.371139e-08, -2.3, 0, 71.16644)
 
 [node name="BanheiroMasculinoNorte" type="MeshInstance3D" parent="." unique_id=1654316030]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12445,12 +12617,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_cosig")
 collision_mode = 2
 
+[node name="Decor" parent="BanheiroMasculinoNorte" unique_id=566964692 instance=ExtResource("decor_all_BanheiroMasculinoNorte")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.3, 0, 58.2777)
+
+[node name="RoomDoor" parent="BanheiroMasculinoNorte" unique_id=543878613 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.3708138e-08, 0, 1, 0, 1, 0, -0.9999256, 0, -4.371139e-08, 5.3, 0, 63.27763)
+
 [node name="SalaDeAulaNorte03" type="MeshInstance3D" parent="." unique_id=1653653554]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_j6shq")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_qrlel")
 collision_mode = 2
+
+[node name="Decor" parent="SalaDeAulaNorte03" unique_id=557711753 instance=ExtResource("decor_all_SalaDeAulaNorte03")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.3, 0, 59.2777)
+
+[node name="RoomDoor" parent="SalaDeAulaNorte03" unique_id=468527149 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.3708138e-08, 0, -1, 0, 1, 0, 0.9999256, 0, -4.371139e-08, -2.3, 0, 62.277706)
 
 [node name="BanheiroFemininoNorte" type="MeshInstance3D" parent="." unique_id=2110353593]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12459,12 +12643,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_bbuh3")
 collision_mode = 2
 
+[node name="Decor" parent="BanheiroFemininoNorte" unique_id=1884555097 instance=ExtResource("decor_all_BanheiroFemininoNorte")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3, 0, 50.40123)
+
+[node name="RoomDoor" parent="BanheiroFemininoNorte" unique_id=533232726 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.2632198e-08, 0, 1, 0, 1, 0, -0.975311, 0, -4.371139e-08, 4.3, 0, 55.376545)
+
 [node name="SalaDeAulaNorte04" type="MeshInstance3D" parent="." unique_id=180758360]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_btkdu")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_pxiqq")
 collision_mode = 2
+
+[node name="Decor" parent="SalaDeAulaNorte04" unique_id=1838050521 instance=ExtResource("decor_all_SalaDeAulaNorte04")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.3, 0, 51.40123)
+
+[node name="RoomDoor" parent="SalaDeAulaNorte04" unique_id=112887529 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.2632198e-08, 0, -1, 0, 1, 0, 0.975311, 0, -4.371139e-08, -2.3, 0, 54.401234)
 
 [node name="SalaDeAulaAlaNorte05" type="MeshInstance3D" parent="." unique_id=1247155565]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12473,12 +12669,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_cxnh5")
 collision_mode = 2
 
+[node name="Decor" parent="SalaDeAulaAlaNorte05" unique_id=1410062496 instance=ExtResource("decor_all_SalaDeAulaAlaNorte05")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.8, 0, 66.00123)
+
+[node name="RoomDoor" parent="SalaDeAulaAlaNorte05" unique_id=1062862141 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-3.9879822e-08, 0, 1, 0, 1, 0, -0.912344, 0, -4.371139e-08, 32.8, 0, 67.913574)
+
 [node name="SalaVazia" type="MeshInstance3D" parent="." unique_id=17865849]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_6g8hv")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_jk51y")
 collision_mode = 2
+
+[node name="Decor" parent="SalaVazia" unique_id=2050894463 instance=ExtResource("decor_all_SalaVazia")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.15185, 0, 72.41358)
+
+[node name="RoomDoor" parent="SalaVazia" unique_id=34893969 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-3.8315218e-08, 0, -1, 0, 1, 0, 0.87655, 0, -4.371139e-08, 27.153706, 0, 73.41358)
 
 [node name="SalaMuseu" type="MeshInstance3D" parent="." unique_id=945383228]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12487,12 +12695,24 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_js0b2")
 collision_mode = 2
 
+[node name="Decor" parent="SalaMuseu" unique_id=411036168 instance=ExtResource("decor_all_SalaMuseu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.8, 0, 72.08436)
+
+[node name="RoomDoor" parent="SalaMuseu" unique_id=1061008615 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-4.243414e-08, 0, 1, 0, 1, 0, -0.97078, 0, -4.371139e-08, 32.8, 0, 74.05514)
+
 [node name="SalaSul" type="MeshInstance3D" parent="." unique_id=1561210559]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_xn61s")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_hqear")
 collision_mode = 2
+
+[node name="Decor" parent="SalaSul" unique_id=177205145 instance=ExtResource("decor_all_SalaSul")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.08333, 0, 89.36296)
+
+[node name="RoomDoor" parent="SalaSul" unique_id=668742242 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(1.083336, 0, 0, 0, 1, 0, 0, 0, 1, 40.083332, 0, 89.36296)
 
 [node name="SalaSecreta" type="MeshInstance3D" parent="." unique_id=186102916]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
@@ -12501,6 +12721,12 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_qugd2")
 collision_mode = 2
 
+[node name="Decor" parent="SalaSecreta" unique_id=1380345952 instance=ExtResource("decor_all_SalaSecreta")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.8, 0, 90.27531)
+
+[node name="RoomDoor" parent="SalaSecreta" unique_id=1844096127 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-5.2993066e-08, 0, 1, 0, 1, 0, -1.21234, 0, -4.371139e-08, 32.8, 0, 92.48765)
+
 [node name="SalaSecreta2" type="MeshInstance3D" parent="." unique_id=342315876]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_fkcqx")
@@ -12508,9 +12734,26 @@ script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_7i7hu")
 collision_mode = 2
 
+[node name="Decor" parent="SalaSecreta2" unique_id=1695973795 instance=ExtResource("decor_all_SalaSecreta2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.18333, 0, 87.88889)
+
+[node name="RoomDoor" parent="SalaSecreta2" unique_id=2118521245 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-3.9582847e-08, 0, -1, 0, 1, 0, 0.90555, 0, -4.371139e-08, 27.175, 0, 88.88889)
+
 [node name="SalaDeChaves" type="MeshInstance3D" parent="." unique_id=653916771]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.5)
 mesh = SubResource("ArrayMesh_pscuv")
 script = ExtResource("12_i2724")
 mesh_data = SubResource("Resource_2vhe1")
 collision_mode = 2
+
+[node name="Decor" parent="SalaDeChaves" unique_id=1791677103 instance=ExtResource("decor_all_SalaDeChaves")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.19445, 0, 92.09629)
+
+[node name="RoomDoor" parent="SalaDeChaves" unique_id=873387896 instance=ExtResource("room_door_unlocked")]
+transform = Transform3D(-3.470514e-08, 0, -1, 0, 1, 0, 0.793961, 0, -4.371139e-08, 27.194445, 0, 93.100235)
+
+[node name="RetroHorrorFilter" parent="." unique_id=568428284 instance=ExtResource("retro_horror_filter")]
+
+[node name="HorrorEnvironment" type="WorldEnvironment" parent="." unique_id=880688943]
+environment = ExtResource("horror_darkness")

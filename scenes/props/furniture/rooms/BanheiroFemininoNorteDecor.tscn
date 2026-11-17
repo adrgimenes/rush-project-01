@@ -1,0 +1,764 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Wood"]
+albedo_color = Color(0.25,0.17,0.1,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Steel"]
+albedo_color = Color(0.18,0.23,0.22,1)
+roughness = 0.88
+metallic = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Paper"]
+albedo_color = Color(0.72,0.67,0.51,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Dark"]
+albedo_color = Color(0.035,0.043,0.041,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Blue"]
+albedo_color = Color(0.12,0.21,0.26,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Red"]
+albedo_color = Color(0.3,0.09,0.055,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Green"]
+albedo_color = Color(0.08,0.15,0.12,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Ceramic"]
+albedo_color = Color(0.65,0.66,0.58,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Glass"]
+albedo_color = Color(0.12,0.21,0.21,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Grime"]
+albedo_color = Color(0.15,0.14,0.09,1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="R2"]
+size = Vector3(0.48,0.53,0.23)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR2"]
+size = Vector3(0.48,0.53,0.23)
+
+[sub_resource type="BoxMesh" id="R3"]
+size = Vector3(0.29,0.4,0.35)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR3"]
+size = Vector3(0.29,0.4,0.35)
+
+[sub_resource type="CylinderMesh" id="R4"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.18
+radial_segments = 10
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR4"]
+size = Vector3(0.5,0.18,0.5)
+
+[sub_resource type="CylinderMesh" id="R5"]
+top_radius = 0.17
+bottom_radius = 0.17
+height = 0.015
+radial_segments = 10
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R6"]
+size = Vector3(0.07,0.035,0.4)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R7"]
+size = Vector3(0.07,0.035,0.4)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R8"]
+size = Vector3(0.045,1.9,1.35)
+material = SubResource("Blue")
+
+[sub_resource type="BoxShape3D" id="SR8"]
+size = Vector3(0.045,1.9,1.35)
+
+[sub_resource type="BoxMesh" id="R10"]
+size = Vector3(0.48,0.53,0.23)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR10"]
+size = Vector3(0.48,0.53,0.23)
+
+[sub_resource type="BoxMesh" id="R11"]
+size = Vector3(0.29,0.4,0.35)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR11"]
+size = Vector3(0.29,0.4,0.35)
+
+[sub_resource type="CylinderMesh" id="R12"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.18
+radial_segments = 10
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR12"]
+size = Vector3(0.5,0.18,0.5)
+
+[sub_resource type="CylinderMesh" id="R13"]
+top_radius = 0.17
+bottom_radius = 0.17
+height = 0.015
+radial_segments = 10
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R14"]
+size = Vector3(0.07,0.035,0.4)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R15"]
+size = Vector3(0.07,0.035,0.4)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R16"]
+size = Vector3(0.045,1.9,1.35)
+material = SubResource("Blue")
+
+[sub_resource type="BoxShape3D" id="SR16"]
+size = Vector3(0.045,1.9,1.35)
+
+[sub_resource type="BoxMesh" id="R18"]
+size = Vector3(0.48,0.53,0.23)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR18"]
+size = Vector3(0.48,0.53,0.23)
+
+[sub_resource type="BoxMesh" id="R19"]
+size = Vector3(0.29,0.4,0.35)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR19"]
+size = Vector3(0.29,0.4,0.35)
+
+[sub_resource type="CylinderMesh" id="R20"]
+top_radius = 0.25
+bottom_radius = 0.25
+height = 0.18
+radial_segments = 10
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR20"]
+size = Vector3(0.5,0.18,0.5)
+
+[sub_resource type="CylinderMesh" id="R21"]
+top_radius = 0.17
+bottom_radius = 0.17
+height = 0.015
+radial_segments = 10
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R22"]
+size = Vector3(0.07,0.035,0.4)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R23"]
+size = Vector3(0.07,0.035,0.4)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R24"]
+size = Vector3(0.045,1.9,1.35)
+material = SubResource("Blue")
+
+[sub_resource type="BoxShape3D" id="SR24"]
+size = Vector3(0.045,1.9,1.35)
+
+[sub_resource type="BoxMesh" id="R26"]
+size = Vector3(0.76,0.78,0.46)
+material = SubResource("Blue")
+
+[sub_resource type="BoxShape3D" id="SR26"]
+size = Vector3(0.76,0.78,0.46)
+
+[sub_resource type="BoxMesh" id="R27"]
+size = Vector3(0.045,0.9,0.045)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R28"]
+size = Vector3(0.045,0.9,0.045)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R29"]
+size = Vector3(0.85,0.15,0.53)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR29"]
+size = Vector3(0.85,0.15,0.53)
+
+[sub_resource type="BoxMesh" id="R30"]
+size = Vector3(0.54,0.012,0.31)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R31"]
+size = Vector3(0.04,0.24,0.04)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R32"]
+size = Vector3(0.04,0.04,0.19)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R33"]
+size = Vector3(0.83,0.76,0.06)
+material = SubResource("Steel")
+
+[sub_resource type="BoxShape3D" id="SR33"]
+size = Vector3(0.83,0.76,0.06)
+
+[sub_resource type="BoxMesh" id="R34"]
+size = Vector3(0.73,0.66,0.012)
+material = SubResource("Glass")
+
+[sub_resource type="BoxMesh" id="R35"]
+size = Vector3(0.008,0.61,0.008)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R37"]
+size = Vector3(0.76,0.78,0.46)
+material = SubResource("Blue")
+
+[sub_resource type="BoxShape3D" id="SR37"]
+size = Vector3(0.76,0.78,0.46)
+
+[sub_resource type="BoxMesh" id="R38"]
+size = Vector3(0.045,0.9,0.045)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R39"]
+size = Vector3(0.045,0.9,0.045)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R40"]
+size = Vector3(0.85,0.15,0.53)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR40"]
+size = Vector3(0.85,0.15,0.53)
+
+[sub_resource type="BoxMesh" id="R41"]
+size = Vector3(0.54,0.012,0.31)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R42"]
+size = Vector3(0.04,0.24,0.04)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R43"]
+size = Vector3(0.04,0.04,0.19)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R44"]
+size = Vector3(0.83,0.76,0.06)
+material = SubResource("Steel")
+
+[sub_resource type="BoxShape3D" id="SR44"]
+size = Vector3(0.83,0.76,0.06)
+
+[sub_resource type="BoxMesh" id="R45"]
+size = Vector3(0.73,0.66,0.012)
+material = SubResource("Glass")
+
+[sub_resource type="BoxMesh" id="R46"]
+size = Vector3(0.008,0.61,0.008)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R48"]
+size = Vector3(0.76,0.78,0.46)
+material = SubResource("Blue")
+
+[sub_resource type="BoxShape3D" id="SR48"]
+size = Vector3(0.76,0.78,0.46)
+
+[sub_resource type="BoxMesh" id="R49"]
+size = Vector3(0.045,0.9,0.045)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R50"]
+size = Vector3(0.045,0.9,0.045)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R51"]
+size = Vector3(0.85,0.15,0.53)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxShape3D" id="SR51"]
+size = Vector3(0.85,0.15,0.53)
+
+[sub_resource type="BoxMesh" id="R52"]
+size = Vector3(0.54,0.012,0.31)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R53"]
+size = Vector3(0.04,0.24,0.04)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R54"]
+size = Vector3(0.04,0.04,0.19)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R55"]
+size = Vector3(0.83,0.76,0.06)
+material = SubResource("Steel")
+
+[sub_resource type="BoxShape3D" id="SR55"]
+size = Vector3(0.83,0.76,0.06)
+
+[sub_resource type="BoxMesh" id="R56"]
+size = Vector3(0.73,0.66,0.012)
+material = SubResource("Glass")
+
+[sub_resource type="BoxMesh" id="R57"]
+size = Vector3(0.008,0.61,0.008)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R58"]
+size = Vector3(2.5,0.72,0.1)
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="SR58"]
+size = Vector3(2.5,0.72,0.1)
+
+[sub_resource type="BoxMesh" id="R59"]
+size = Vector3(2.36,0.6,0.015)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R61"]
+size = Vector3(0.19,0.008,0.25)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R62"]
+size = Vector3(0.19,0.008,0.25)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R63"]
+size = Vector3(0.19,0.008,0.25)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R64"]
+size = Vector3(1.2,0.09,0.25)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R65"]
+size = Vector3(1.1,0.015,0.18)
+material = SubResource("Ceramic")
+
+[node name="RoomDecor" type="Node3D"]
+
+[node name="CabineSanitaria1" type="Node3D" parent="."]
+position = Vector3(1.5,0,1.65)
+
+[node name="Tanque2" type="MeshInstance3D" parent="CabineSanitaria1"]
+position = Vector3(0,0.78,-0.39)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R2")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria1/Tanque2"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria1/Tanque2/Body"]
+shape = SubResource("SR2")
+
+[node name="Base3" type="MeshInstance3D" parent="CabineSanitaria1"]
+position = Vector3(0,0.2,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R3")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria1/Base3"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria1/Base3/Body"]
+shape = SubResource("SR3")
+
+[node name="Vaso4" type="MeshInstance3D" parent="CabineSanitaria1"]
+position = Vector3(0,0.43,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R4")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria1/Vaso4"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria1/Vaso4/Body"]
+shape = SubResource("SR4")
+
+[node name="InteriorVaso5" type="MeshInstance3D" parent="CabineSanitaria1"]
+position = Vector3(0,0.525,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R5")
+
+[node name="AssentoLado6" type="MeshInstance3D" parent="CabineSanitaria1"]
+position = Vector3(-0.21,0.53,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R6")
+
+[node name="AssentoLado7" type="MeshInstance3D" parent="CabineSanitaria1"]
+position = Vector3(0.21,0.53,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R7")
+
+[node name="Divisoria8" type="MeshInstance3D" parent="CabineSanitaria1"]
+position = Vector3(0.54,0.95,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R8")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria1/Divisoria8"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria1/Divisoria8/Body"]
+shape = SubResource("SR8")
+
+[node name="CabineSanitaria9" type="Node3D" parent="."]
+position = Vector3(3.2,0,1.65)
+
+[node name="Tanque10" type="MeshInstance3D" parent="CabineSanitaria9"]
+position = Vector3(0,0.78,-0.39)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R10")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria9/Tanque10"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria9/Tanque10/Body"]
+shape = SubResource("SR10")
+
+[node name="Base11" type="MeshInstance3D" parent="CabineSanitaria9"]
+position = Vector3(0,0.2,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R11")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria9/Base11"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria9/Base11/Body"]
+shape = SubResource("SR11")
+
+[node name="Vaso12" type="MeshInstance3D" parent="CabineSanitaria9"]
+position = Vector3(0,0.43,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R12")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria9/Vaso12"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria9/Vaso12/Body"]
+shape = SubResource("SR12")
+
+[node name="InteriorVaso13" type="MeshInstance3D" parent="CabineSanitaria9"]
+position = Vector3(0,0.525,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R13")
+
+[node name="AssentoLado14" type="MeshInstance3D" parent="CabineSanitaria9"]
+position = Vector3(-0.21,0.53,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R14")
+
+[node name="AssentoLado15" type="MeshInstance3D" parent="CabineSanitaria9"]
+position = Vector3(0.21,0.53,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R15")
+
+[node name="Divisoria16" type="MeshInstance3D" parent="CabineSanitaria9"]
+position = Vector3(0.54,0.95,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R16")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria9/Divisoria16"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria9/Divisoria16/Body"]
+shape = SubResource("SR16")
+
+[node name="CabineSanitaria17" type="Node3D" parent="."]
+position = Vector3(4.9,0,1.65)
+
+[node name="Tanque18" type="MeshInstance3D" parent="CabineSanitaria17"]
+position = Vector3(0,0.78,-0.39)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R18")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria17/Tanque18"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria17/Tanque18/Body"]
+shape = SubResource("SR18")
+
+[node name="Base19" type="MeshInstance3D" parent="CabineSanitaria17"]
+position = Vector3(0,0.2,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R19")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria17/Base19"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria17/Base19/Body"]
+shape = SubResource("SR19")
+
+[node name="Vaso20" type="MeshInstance3D" parent="CabineSanitaria17"]
+position = Vector3(0,0.43,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R20")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria17/Vaso20"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria17/Vaso20/Body"]
+shape = SubResource("SR20")
+
+[node name="InteriorVaso21" type="MeshInstance3D" parent="CabineSanitaria17"]
+position = Vector3(0,0.525,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R21")
+
+[node name="AssentoLado22" type="MeshInstance3D" parent="CabineSanitaria17"]
+position = Vector3(-0.21,0.53,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R22")
+
+[node name="AssentoLado23" type="MeshInstance3D" parent="CabineSanitaria17"]
+position = Vector3(0.21,0.53,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R23")
+
+[node name="Divisoria24" type="MeshInstance3D" parent="CabineSanitaria17"]
+position = Vector3(0.54,0.95,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R24")
+
+[node name="Body" type="StaticBody3D" parent="CabineSanitaria17/Divisoria24"]
+[node name="Collision" type="CollisionShape3D" parent="CabineSanitaria17/Divisoria24/Body"]
+shape = SubResource("SR24")
+
+[node name="PiaEspelho25" type="Node3D" parent="."]
+position = Vector3(1.5,0,4.77531)
+
+[node name="GabinetePia26" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0,0.4,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R26")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho25/GabinetePia26"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho25/GabinetePia26/Body"]
+shape = SubResource("SR26")
+
+[node name="SuporteEspelho27" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(-0.36,1.2,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R27")
+
+[node name="SuporteEspelho28" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0.36,1.2,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R28")
+
+[node name="Pia29" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0,0.83,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R29")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho25/Pia29"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho25/Pia29/Body"]
+shape = SubResource("SR29")
+
+[node name="Cuba30" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0,0.911,0.05)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R30")
+
+[node name="Torneira31" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0,1.01,-0.19)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R31")
+
+[node name="Bica32" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0,1.12,-0.12)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R32")
+
+[node name="MolduraEspelho33" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0,1.6,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R33")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho25/MolduraEspelho33"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho25/MolduraEspelho33/Body"]
+shape = SubResource("SR33")
+
+[node name="Espelho34" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0,1.6,-0.244)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R34")
+
+[node name="Trinca35" type="MeshInstance3D" parent="PiaEspelho25"]
+position = Vector3(0,1.6,-0.235)
+rotation = Vector3(0,0,0.35)
+mesh = SubResource("R35")
+
+[node name="PiaEspelho36" type="Node3D" parent="."]
+position = Vector3(3.2,0,4.77531)
+
+[node name="GabinetePia37" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0,0.4,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R37")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho36/GabinetePia37"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho36/GabinetePia37/Body"]
+shape = SubResource("SR37")
+
+[node name="SuporteEspelho38" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(-0.36,1.2,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R38")
+
+[node name="SuporteEspelho39" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0.36,1.2,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R39")
+
+[node name="Pia40" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0,0.83,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R40")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho36/Pia40"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho36/Pia40/Body"]
+shape = SubResource("SR40")
+
+[node name="Cuba41" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0,0.911,0.05)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R41")
+
+[node name="Torneira42" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0,1.01,-0.19)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R42")
+
+[node name="Bica43" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0,1.12,-0.12)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R43")
+
+[node name="MolduraEspelho44" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0,1.6,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R44")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho36/MolduraEspelho44"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho36/MolduraEspelho44/Body"]
+shape = SubResource("SR44")
+
+[node name="Espelho45" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0,1.6,-0.244)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R45")
+
+[node name="Trinca46" type="MeshInstance3D" parent="PiaEspelho36"]
+position = Vector3(0,1.6,-0.235)
+rotation = Vector3(0,0,0.35)
+mesh = SubResource("R46")
+
+[node name="PiaEspelho47" type="Node3D" parent="."]
+position = Vector3(4.9,0,4.77531)
+
+[node name="GabinetePia48" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0,0.4,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R48")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho47/GabinetePia48"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho47/GabinetePia48/Body"]
+shape = SubResource("SR48")
+
+[node name="SuporteEspelho49" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(-0.36,1.2,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R49")
+
+[node name="SuporteEspelho50" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0.36,1.2,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R50")
+
+[node name="Pia51" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0,0.83,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R51")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho47/Pia51"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho47/Pia51/Body"]
+shape = SubResource("SR51")
+
+[node name="Cuba52" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0,0.911,0.05)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R52")
+
+[node name="Torneira53" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0,1.01,-0.19)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R53")
+
+[node name="Bica54" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0,1.12,-0.12)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R54")
+
+[node name="MolduraEspelho55" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0,1.6,-0.28)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R55")
+
+[node name="Body" type="StaticBody3D" parent="PiaEspelho47/MolduraEspelho55"]
+[node name="Collision" type="CollisionShape3D" parent="PiaEspelho47/MolduraEspelho55/Body"]
+shape = SubResource("SR55")
+
+[node name="Espelho56" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0,1.6,-0.244)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R56")
+
+[node name="Trinca57" type="MeshInstance3D" parent="PiaEspelho47"]
+position = Vector3(0,1.6,-0.235)
+rotation = Vector3(0,0,0.35)
+mesh = SubResource("R57")
+
+[node name="QuadroMoldura58" type="MeshInstance3D" parent="."]
+position = Vector3(4.0,2.5,0.065)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R58")
+
+[node name="Body" type="StaticBody3D" parent="QuadroMoldura58"]
+[node name="Collision" type="CollisionShape3D" parent="QuadroMoldura58/Body"]
+shape = SubResource("SR58")
+
+[node name="QuadroInterior59" type="MeshInstance3D" parent="."]
+position = Vector3(4.0,2.5,0.123)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R59")
+
+[node name="Texto60" type="Label3D" parent="."]
+position = Vector3(4.0,2.5,0.14)
+rotation = Vector3(0,0,0)
+text = "SANITARIOS\n\nINTERDITADO PARA MANUTENCAO"
+font_size = 20
+pixel_size = 0.004
+modulate = Color(0.25,0.23,0.18,1)
+
+[node name="PapelCaido61" type="MeshInstance3D" parent="."]
+position = Vector3(3.2,0.008,3.58519)
+rotation = Vector3(0,0.0,0)
+mesh = SubResource("R61")
+
+[node name="PapelCaido62" type="MeshInstance3D" parent="."]
+position = Vector3(3.41,0.008,3.58519)
+rotation = Vector3(0,0.4,0)
+mesh = SubResource("R62")
+
+[node name="PapelCaido63" type="MeshInstance3D" parent="."]
+position = Vector3(3.62,0.008,3.58519)
+rotation = Vector3(0,0.8,0)
+mesh = SubResource("R63")
+
+[node name="Luminaria64" type="MeshInstance3D" parent="."]
+position = Vector3(4.0,3.82,2.98766)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R64")
+
+[node name="DifusorApagado65" type="MeshInstance3D" parent="."]
+position = Vector3(4.0,3.77,2.98766)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R65")

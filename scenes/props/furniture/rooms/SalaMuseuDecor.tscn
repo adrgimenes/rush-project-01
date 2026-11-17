@@ -1,0 +1,338 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Wood"]
+albedo_color = Color(0.25,0.17,0.1,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Steel"]
+albedo_color = Color(0.18,0.23,0.22,1)
+roughness = 0.88
+metallic = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Paper"]
+albedo_color = Color(0.72,0.67,0.51,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Dark"]
+albedo_color = Color(0.035,0.043,0.041,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Blue"]
+albedo_color = Color(0.12,0.21,0.26,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Red"]
+albedo_color = Color(0.3,0.09,0.055,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Green"]
+albedo_color = Color(0.08,0.15,0.12,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Ceramic"]
+albedo_color = Color(0.65,0.66,0.58,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Glass"]
+albedo_color = Color(0.12,0.21,0.21,1)
+roughness = 0.88
+
+[sub_resource type="StandardMaterial3D" id="Grime"]
+albedo_color = Color(0.15,0.14,0.09,1)
+roughness = 0.88
+
+[sub_resource type="BoxMesh" id="R2"]
+size = Vector3(0.65,1,0.65)
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="SR2"]
+size = Vector3(0.65,1,0.65)
+
+[sub_resource type="BoxMesh" id="R3"]
+size = Vector3(0.48,0.39,0.41)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R4"]
+size = Vector3(0.34,0.25,0.012)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R5"]
+size = Vector3(0.51,0.19,0.012)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R8"]
+size = Vector3(0.65,1,0.65)
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="SR8"]
+size = Vector3(0.65,1,0.65)
+
+[sub_resource type="BoxMesh" id="R9"]
+size = Vector3(0.48,0.39,0.41)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R10"]
+size = Vector3(0.34,0.25,0.012)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R11"]
+size = Vector3(0.51,0.19,0.012)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R14"]
+size = Vector3(0.65,1,0.65)
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="SR14"]
+size = Vector3(0.65,1,0.65)
+
+[sub_resource type="BoxMesh" id="R15"]
+size = Vector3(0.48,0.39,0.41)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R16"]
+size = Vector3(0.34,0.25,0.012)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R17"]
+size = Vector3(0.51,0.19,0.012)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R20"]
+size = Vector3(0.65,1,0.65)
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="SR20"]
+size = Vector3(0.65,1,0.65)
+
+[sub_resource type="BoxMesh" id="R21"]
+size = Vector3(0.48,0.39,0.41)
+material = SubResource("Ceramic")
+
+[sub_resource type="BoxMesh" id="R22"]
+size = Vector3(0.34,0.25,0.012)
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="R23"]
+size = Vector3(0.51,0.19,0.012)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R25"]
+size = Vector3(2.5,0.72,0.1)
+material = SubResource("Wood")
+
+[sub_resource type="BoxShape3D" id="SR25"]
+size = Vector3(2.5,0.72,0.1)
+
+[sub_resource type="BoxMesh" id="R26"]
+size = Vector3(2.36,0.6,0.015)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R28"]
+size = Vector3(0.19,0.008,0.25)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R29"]
+size = Vector3(0.19,0.008,0.25)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R30"]
+size = Vector3(0.19,0.008,0.25)
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="R31"]
+size = Vector3(1.2,0.09,0.25)
+material = SubResource("Steel")
+
+[sub_resource type="BoxMesh" id="R32"]
+size = Vector3(1.1,0.015,0.18)
+material = SubResource("Ceramic")
+
+[node name="RoomDecor" type="Node3D"]
+
+[node name="Expositor1" type="Node3D" parent="."]
+position = Vector3(1.6,0,1.6)
+
+[node name="Pedestal2" type="MeshInstance3D" parent="Expositor1"]
+position = Vector3(0,0.5,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R2")
+
+[node name="Body" type="StaticBody3D" parent="Expositor1/Pedestal2"]
+[node name="Collision" type="CollisionShape3D" parent="Expositor1/Pedestal2/Body"]
+shape = SubResource("SR2")
+
+[node name="ComputadorHistorico3" type="MeshInstance3D" parent="Expositor1"]
+position = Vector3(0,1.2,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R3")
+
+[node name="TelaAntiga4" type="MeshInstance3D" parent="Expositor1"]
+position = Vector3(0,1.2,0.21)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R4")
+
+[node name="Placa5" type="MeshInstance3D" parent="Expositor1"]
+position = Vector3(0,0.8,0.332)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R5")
+
+[node name="Texto6" type="Label3D" parent="Expositor1"]
+position = Vector3(0,0.8,0.344)
+rotation = Vector3(0,0,0)
+text = "ACERVO 01"
+font_size = 14
+pixel_size = 0.004
+modulate = Color(0.25,0.23,0.18,1)
+
+[node name="Expositor7" type="Node3D" parent="."]
+position = Vector3(5.4,0,1.6)
+
+[node name="Pedestal8" type="MeshInstance3D" parent="Expositor7"]
+position = Vector3(0,0.5,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R8")
+
+[node name="Body" type="StaticBody3D" parent="Expositor7/Pedestal8"]
+[node name="Collision" type="CollisionShape3D" parent="Expositor7/Pedestal8/Body"]
+shape = SubResource("SR8")
+
+[node name="ComputadorHistorico9" type="MeshInstance3D" parent="Expositor7"]
+position = Vector3(0,1.2,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R9")
+
+[node name="TelaAntiga10" type="MeshInstance3D" parent="Expositor7"]
+position = Vector3(0,1.2,0.21)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R10")
+
+[node name="Placa11" type="MeshInstance3D" parent="Expositor7"]
+position = Vector3(0,0.8,0.332)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R11")
+
+[node name="Texto12" type="Label3D" parent="Expositor7"]
+position = Vector3(0,0.8,0.344)
+rotation = Vector3(0,0,0)
+text = "ACERVO 02"
+font_size = 14
+pixel_size = 0.004
+modulate = Color(0.25,0.23,0.18,1)
+
+[node name="Expositor13" type="Node3D" parent="."]
+position = Vector3(1.6,0,5.37078)
+
+[node name="Pedestal14" type="MeshInstance3D" parent="Expositor13"]
+position = Vector3(0,0.5,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R14")
+
+[node name="Body" type="StaticBody3D" parent="Expositor13/Pedestal14"]
+[node name="Collision" type="CollisionShape3D" parent="Expositor13/Pedestal14/Body"]
+shape = SubResource("SR14")
+
+[node name="ComputadorHistorico15" type="MeshInstance3D" parent="Expositor13"]
+position = Vector3(0,1.2,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R15")
+
+[node name="TelaAntiga16" type="MeshInstance3D" parent="Expositor13"]
+position = Vector3(0,1.2,0.21)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R16")
+
+[node name="Placa17" type="MeshInstance3D" parent="Expositor13"]
+position = Vector3(0,0.8,0.332)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R17")
+
+[node name="Texto18" type="Label3D" parent="Expositor13"]
+position = Vector3(0,0.8,0.344)
+rotation = Vector3(0,0,0)
+text = "ACERVO 03"
+font_size = 14
+pixel_size = 0.004
+modulate = Color(0.25,0.23,0.18,1)
+
+[node name="Expositor19" type="Node3D" parent="."]
+position = Vector3(5.4,0,5.37078)
+
+[node name="Pedestal20" type="MeshInstance3D" parent="Expositor19"]
+position = Vector3(0,0.5,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R20")
+
+[node name="Body" type="StaticBody3D" parent="Expositor19/Pedestal20"]
+[node name="Collision" type="CollisionShape3D" parent="Expositor19/Pedestal20/Body"]
+shape = SubResource("SR20")
+
+[node name="ComputadorHistorico21" type="MeshInstance3D" parent="Expositor19"]
+position = Vector3(0,1.2,0)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R21")
+
+[node name="TelaAntiga22" type="MeshInstance3D" parent="Expositor19"]
+position = Vector3(0,1.2,0.21)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R22")
+
+[node name="Placa23" type="MeshInstance3D" parent="Expositor19"]
+position = Vector3(0,0.8,0.332)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R23")
+
+[node name="Texto24" type="Label3D" parent="Expositor19"]
+position = Vector3(0,0.8,0.344)
+rotation = Vector3(0,0,0)
+text = "ACERVO 04"
+font_size = 14
+pixel_size = 0.004
+modulate = Color(0.25,0.23,0.18,1)
+
+[node name="QuadroMoldura25" type="MeshInstance3D" parent="."]
+position = Vector3(3.5,2.5,0.065)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R25")
+
+[node name="Body" type="StaticBody3D" parent="QuadroMoldura25"]
+[node name="Collision" type="CollisionShape3D" parent="QuadroMoldura25/Body"]
+shape = SubResource("SR25")
+
+[node name="QuadroInterior26" type="MeshInstance3D" parent="."]
+position = Vector3(3.5,2.5,0.123)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R26")
+
+[node name="Texto27" type="Label3D" parent="."]
+position = Vector3(3.5,2.5,0.14)
+rotation = Vector3(0,0,0)
+text = "MEMORIA DA COMPUTACAO\n\nACERVO / TERMINAIS HISTORICOS"
+font_size = 20
+pixel_size = 0.004
+modulate = Color(0.25,0.23,0.18,1)
+
+[node name="PapelCaido28" type="MeshInstance3D" parent="."]
+position = Vector3(2.8,0.008,4.18247)
+rotation = Vector3(0,0.0,0)
+mesh = SubResource("R28")
+
+[node name="PapelCaido29" type="MeshInstance3D" parent="."]
+position = Vector3(3.01,0.008,4.18247)
+rotation = Vector3(0,0.4,0)
+mesh = SubResource("R29")
+
+[node name="PapelCaido30" type="MeshInstance3D" parent="."]
+position = Vector3(3.22,0.008,4.18247)
+rotation = Vector3(0,0.8,0)
+mesh = SubResource("R30")
+
+[node name="Luminaria31" type="MeshInstance3D" parent="."]
+position = Vector3(3.5,3.82,3.48539)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R31")
+
+[node name="DifusorApagado32" type="MeshInstance3D" parent="."]
+position = Vector3(3.5,3.77,3.48539)
+rotation = Vector3(0,0,0)
+mesh = SubResource("R32")
