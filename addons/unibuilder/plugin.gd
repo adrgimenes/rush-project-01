@@ -700,6 +700,12 @@ func run_action(id: String) -> void:
 
 		"weld":
 			_begin_adjust("weld")
+		"dissolve":
+			_commit_topology_op("Dissolve Vertices",
+				func() -> void:
+					var removed: int = preload("res://addons/unibuilder/core/ops/dissolve_vertices.gd").apply(data, verts)
+					_notify_user("Dissolve: %d vertices removed. Corners, junctions and UV seams preserved." % removed))
+			selection.clear_elements()
 		"collapse":
 			_commit_topology_op("Collapse Vertices",
 				func() -> void: UBOpCollapseVertices.apply(data, verts))

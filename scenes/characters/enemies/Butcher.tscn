@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/characters/villain/models/butcher.fbx" id="model"]
+[ext_resource type="Script" path="res://scripts/characters/enemies/butcher.gd" id="script"]
+[ext_resource type="AudioStream" path="res://assets/characters/villain/audio/sound-walking.mp3" id="walking_audio"]
+
+[sub_resource type="CapsuleShape3D" id="Capsule"]
+radius = 0.28
+height = 1.9
+
+[node name="Butcher" type="CharacterBody3D"]
+script = ExtResource("script")
+floor_snap_length = 0.2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.95, 0)
+shape = SubResource("Capsule")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+path_desired_distance = 0.25
+target_desired_distance = 0.8
+
+[node name="Model" parent="." instance=ExtResource("model")]
+scale = Vector3(2, 2, 2)
+
+[node name="Footsteps" type="AudioStreamPlayer3D" parent="."]
+position = Vector3(0, 0.2, 0)
+stream = ExtResource("walking_audio")
+volume_db = -5.0
+unit_size = 2.0
+max_distance = 22.0
+max_db = 0.0

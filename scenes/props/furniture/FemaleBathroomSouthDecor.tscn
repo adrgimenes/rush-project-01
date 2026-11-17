@@ -1,0 +1,1472 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Porcelain"]
+
+albedo_color = Color(0.67,0.68,0.60,1)
+
+metallic = 0
+
+roughness = 0.3
+
+[sub_resource type="StandardMaterial3D" id="Dark"]
+
+albedo_color = Color(0.035,0.045,0.04,1)
+
+metallic = 0
+
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Partition"]
+
+albedo_color = Color(0.22,0.29,0.25,1)
+
+metallic = 0.15
+
+roughness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Rust"]
+
+albedo_color = Color(0.20,0.10,0.045,1)
+
+metallic = 0.3
+
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Chrome"]
+
+albedo_color = Color(0.48,0.5,0.51,1)
+
+metallic = 0.85
+
+roughness = 0.23
+
+[sub_resource type="StandardMaterial3D" id="Mirror"]
+
+albedo_color = Color(0.65,0.7,0.69,1)
+
+metallic = 1
+
+roughness = 0.16
+
+[sub_resource type="StandardMaterial3D" id="Grime"]
+
+albedo_color = Color(0.055,0.065,0.035,1)
+
+metallic = 0
+
+roughness = 1
+
+[sub_resource type="StandardMaterial3D" id="Paper"]
+
+albedo_color = Color(0.65,0.60,0.45,1)
+
+metallic = 0
+
+roughness = 1
+
+[sub_resource type="BoxMesh" id="Tank0"]
+
+size = Vector3(0.48, 0.52, 0.22)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="Tank0Shape"]
+
+size = Vector3(0.48, 0.52, 0.22)
+
+[sub_resource type="BoxMesh" id="TankLid0"]
+
+size = Vector3(0.52, 0.04, 0.26)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="Flush0"]
+
+size = Vector3(0.08, 0.025, 0.04)
+
+material = SubResource("Chrome")
+
+[sub_resource type="CylinderMesh" id="Pedestal0"]
+
+top_radius = 0.20
+
+bottom_radius = 0.16
+
+height = 0.44
+
+radial_segments = 12
+
+material = SubResource("Porcelain")
+
+[sub_resource type="TorusMesh" id="Bowl0"]
+
+inner_radius = 0.13
+
+outer_radius = 0.24
+
+rings = 16
+
+ring_segments = 8
+
+material = SubResource("Porcelain")
+
+[sub_resource type="TorusMesh" id="Seat0"]
+
+inner_radius = 0.145
+
+outer_radius = 0.225
+
+rings = 16
+
+ring_segments = 6
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="BowlWater0"]
+
+size = Vector3(0.28, 0.015, 0.32)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="ToiletBase0"]
+
+size = Vector3(0.32, 0.36, 0.48)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="ToiletBase0Shape"]
+
+size = Vector3(0.32, 0.36, 0.48)
+
+[sub_resource type="BoxMesh" id="PaperHolder0"]
+
+size = Vector3(0.1, 0.07, 0.22)
+
+material = SubResource("Chrome")
+
+[sub_resource type="CylinderMesh" id="PaperRoll0"]
+
+top_radius = 0.07
+
+bottom_radius = 0.07
+
+height = 0.13
+
+radial_segments = 10
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="CubicleReturn0"]
+
+size = Vector3(0.38, 1.9, 0.045)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="CubicleReturn0Shape"]
+
+size = Vector3(0.38, 1.9, 0.045)
+
+[sub_resource type="BoxMesh" id="Tank1"]
+
+size = Vector3(0.48, 0.52, 0.22)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="Tank1Shape"]
+
+size = Vector3(0.48, 0.52, 0.22)
+
+[sub_resource type="BoxMesh" id="TankLid1"]
+
+size = Vector3(0.52, 0.04, 0.26)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="Flush1"]
+
+size = Vector3(0.08, 0.025, 0.04)
+
+material = SubResource("Chrome")
+
+[sub_resource type="CylinderMesh" id="Pedestal1"]
+
+top_radius = 0.20
+
+bottom_radius = 0.16
+
+height = 0.44
+
+radial_segments = 12
+
+material = SubResource("Porcelain")
+
+[sub_resource type="TorusMesh" id="Bowl1"]
+
+inner_radius = 0.13
+
+outer_radius = 0.24
+
+rings = 16
+
+ring_segments = 8
+
+material = SubResource("Porcelain")
+
+[sub_resource type="TorusMesh" id="Seat1"]
+
+inner_radius = 0.145
+
+outer_radius = 0.225
+
+rings = 16
+
+ring_segments = 6
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="BowlWater1"]
+
+size = Vector3(0.28, 0.015, 0.32)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="ToiletBase1"]
+
+size = Vector3(0.32, 0.36, 0.48)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="ToiletBase1Shape"]
+
+size = Vector3(0.32, 0.36, 0.48)
+
+[sub_resource type="BoxMesh" id="PaperHolder1"]
+
+size = Vector3(0.1, 0.07, 0.22)
+
+material = SubResource("Chrome")
+
+[sub_resource type="CylinderMesh" id="PaperRoll1"]
+
+top_radius = 0.07
+
+bottom_radius = 0.07
+
+height = 0.13
+
+radial_segments = 10
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="CubicleReturn1"]
+
+size = Vector3(0.38, 1.9, 0.045)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="CubicleReturn1Shape"]
+
+size = Vector3(0.38, 1.9, 0.045)
+
+[sub_resource type="BoxMesh" id="Tank2"]
+
+size = Vector3(0.48, 0.52, 0.22)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="Tank2Shape"]
+
+size = Vector3(0.48, 0.52, 0.22)
+
+[sub_resource type="BoxMesh" id="TankLid2"]
+
+size = Vector3(0.52, 0.04, 0.26)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="Flush2"]
+
+size = Vector3(0.08, 0.025, 0.04)
+
+material = SubResource("Chrome")
+
+[sub_resource type="CylinderMesh" id="Pedestal2"]
+
+top_radius = 0.20
+
+bottom_radius = 0.16
+
+height = 0.44
+
+radial_segments = 12
+
+material = SubResource("Porcelain")
+
+[sub_resource type="TorusMesh" id="Bowl2"]
+
+inner_radius = 0.13
+
+outer_radius = 0.24
+
+rings = 16
+
+ring_segments = 8
+
+material = SubResource("Porcelain")
+
+[sub_resource type="TorusMesh" id="Seat2"]
+
+inner_radius = 0.145
+
+outer_radius = 0.225
+
+rings = 16
+
+ring_segments = 6
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="BowlWater2"]
+
+size = Vector3(0.28, 0.015, 0.32)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="ToiletBase2"]
+
+size = Vector3(0.32, 0.36, 0.48)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="ToiletBase2Shape"]
+
+size = Vector3(0.32, 0.36, 0.48)
+
+[sub_resource type="BoxMesh" id="PaperHolder2"]
+
+size = Vector3(0.1, 0.07, 0.22)
+
+material = SubResource("Chrome")
+
+[sub_resource type="CylinderMesh" id="PaperRoll2"]
+
+top_radius = 0.07
+
+bottom_radius = 0.07
+
+height = 0.13
+
+radial_segments = 10
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="CubicleReturn2"]
+
+size = Vector3(0.38, 1.9, 0.045)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="CubicleReturn2Shape"]
+
+size = Vector3(0.38, 1.9, 0.045)
+
+[sub_resource type="BoxMesh" id="Partition0"]
+
+size = Vector3(0.045, 1.9, 1.65)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="Partition0Shape"]
+
+size = Vector3(0.045, 1.9, 1.65)
+
+[sub_resource type="BoxMesh" id="PartitionFoot0"]
+
+size = Vector3(0.065, 0.24, 0.065)
+
+material = SubResource("Rust")
+
+[sub_resource type="BoxMesh" id="Partition1"]
+
+size = Vector3(0.045, 1.9, 1.65)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="Partition1Shape"]
+
+size = Vector3(0.045, 1.9, 1.65)
+
+[sub_resource type="BoxMesh" id="PartitionFoot1"]
+
+size = Vector3(0.065, 0.24, 0.065)
+
+material = SubResource("Rust")
+
+[sub_resource type="BoxMesh" id="Partition2"]
+
+size = Vector3(0.045, 1.9, 1.65)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="Partition2Shape"]
+
+size = Vector3(0.045, 1.9, 1.65)
+
+[sub_resource type="BoxMesh" id="PartitionFoot2"]
+
+size = Vector3(0.065, 0.24, 0.065)
+
+material = SubResource("Rust")
+
+[sub_resource type="BoxMesh" id="Partition3"]
+
+size = Vector3(0.045, 1.9, 1.65)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="Partition3Shape"]
+
+size = Vector3(0.045, 1.9, 1.65)
+
+[sub_resource type="BoxMesh" id="PartitionFoot3"]
+
+size = Vector3(0.065, 0.24, 0.065)
+
+material = SubResource("Rust")
+
+[sub_resource type="BoxMesh" id="Counter"]
+
+size = Vector3(3.5, 0.12, 0.65)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="CounterShape"]
+
+size = Vector3(3.5, 0.12, 0.65)
+
+[sub_resource type="BoxMesh" id="BasinWell0"]
+
+size = Vector3(0.61, 0.015, 0.39)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="BasinRim0_Left"]
+
+size = Vector3(0.06, 0.06, 0.46)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinRim0_1"]
+
+size = Vector3(0.06, 0.06, 0.46)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinEdge0_Left"]
+
+size = Vector3(0.65, 0.06, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinEdge0_1"]
+
+size = Vector3(0.65, 0.06, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="TapStem0"]
+
+size = Vector3(0.045, 0.25, 0.045)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="TapSpout0"]
+
+size = Vector3(0.045, 0.04, 0.22)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="DrainPipe0"]
+
+size = Vector3(0.065, 0.65, 0.065)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="MirrorFrame0"]
+
+size = Vector3(0.92, 1.12, 0.055)
+
+material = SubResource("Rust")
+
+[sub_resource type="BoxMesh" id="Mirror0"]
+
+size = Vector3(0.84, 1.04, 0.012)
+
+material = SubResource("Mirror")
+
+[sub_resource type="BoxMesh" id="BasinWell1"]
+
+size = Vector3(0.61, 0.015, 0.39)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="BasinRim1_Left"]
+
+size = Vector3(0.06, 0.06, 0.46)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinRim1_1"]
+
+size = Vector3(0.06, 0.06, 0.46)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinEdge1_Left"]
+
+size = Vector3(0.65, 0.06, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinEdge1_1"]
+
+size = Vector3(0.65, 0.06, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="TapStem1"]
+
+size = Vector3(0.045, 0.25, 0.045)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="TapSpout1"]
+
+size = Vector3(0.045, 0.04, 0.22)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="DrainPipe1"]
+
+size = Vector3(0.065, 0.65, 0.065)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="MirrorFrame1"]
+
+size = Vector3(0.92, 1.12, 0.055)
+
+material = SubResource("Rust")
+
+[sub_resource type="BoxMesh" id="Mirror1"]
+
+size = Vector3(0.84, 1.04, 0.012)
+
+material = SubResource("Mirror")
+
+[sub_resource type="BoxMesh" id="Crack0"]
+
+size = Vector3(0.008, 0.22, 0.003)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Crack1"]
+
+size = Vector3(0.008, 0.22, 0.003)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Crack2"]
+
+size = Vector3(0.008, 0.22, 0.003)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Crack3"]
+
+size = Vector3(0.008, 0.22, 0.003)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="BasinWell2"]
+
+size = Vector3(0.61, 0.015, 0.39)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="BasinRim2_Left"]
+
+size = Vector3(0.06, 0.06, 0.46)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinRim2_1"]
+
+size = Vector3(0.06, 0.06, 0.46)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinEdge2_Left"]
+
+size = Vector3(0.65, 0.06, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="BasinEdge2_1"]
+
+size = Vector3(0.65, 0.06, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="TapStem2"]
+
+size = Vector3(0.045, 0.25, 0.045)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="TapSpout2"]
+
+size = Vector3(0.045, 0.04, 0.22)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="DrainPipe2"]
+
+size = Vector3(0.065, 0.65, 0.065)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="MirrorFrame2"]
+
+size = Vector3(0.92, 1.12, 0.055)
+
+material = SubResource("Rust")
+
+[sub_resource type="BoxMesh" id="Mirror2"]
+
+size = Vector3(0.84, 1.04, 0.012)
+
+material = SubResource("Mirror")
+
+[sub_resource type="BoxMesh" id="SoapDispenser"]
+
+size = Vector3(0.18, 0.27, 0.13)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxMesh" id="WasteBin"]
+
+size = Vector3(0.35, 0.54, 0.35)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="WasteBinShape"]
+
+size = Vector3(0.35, 0.54, 0.35)
+
+[sub_resource type="BoxMesh" id="WasteOpening"]
+
+size = Vector3(0.28, 0.01, 0.28)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="DampStreak0"]
+
+size = Vector3(0.08, 0.7, 0.006)
+
+material = SubResource("Grime")
+
+[sub_resource type="BoxMesh" id="DampStreak1"]
+
+size = Vector3(0.095, 0.7, 0.006)
+
+material = SubResource("Grime")
+
+[sub_resource type="BoxMesh" id="DampStreak2"]
+
+size = Vector3(0.11, 0.7, 0.006)
+
+material = SubResource("Grime")
+
+[sub_resource type="BoxMesh" id="DampStreak3"]
+
+size = Vector3(0.125, 0.7, 0.006)
+
+material = SubResource("Grime")
+
+[sub_resource type="CylinderMesh" id="Puddle0"]
+
+top_radius = 0.35
+
+bottom_radius = 0.35
+
+height = 0.004
+
+radial_segments = 9
+
+material = SubResource("Dark")
+
+[sub_resource type="CylinderMesh" id="Puddle1"]
+
+top_radius = 0.35
+
+bottom_radius = 0.35
+
+height = 0.004
+
+radial_segments = 9
+
+material = SubResource("Dark")
+
+[sub_resource type="CylinderMesh" id="Puddle2"]
+
+top_radius = 0.35
+
+bottom_radius = 0.35
+
+height = 0.004
+
+radial_segments = 9
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="Litter0"]
+
+size = Vector3(0.11, 0.005, 0.17)
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="Litter1"]
+
+size = Vector3(0.11, 0.005, 0.17)
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="Litter2"]
+
+size = Vector3(0.11, 0.005, 0.17)
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="Litter3"]
+
+size = Vector3(0.11, 0.005, 0.17)
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="Litter4"]
+
+size = Vector3(0.11, 0.005, 0.17)
+
+material = SubResource("Paper")
+
+[sub_resource type="BoxMesh" id="CeilingFixture"]
+
+size = Vector3(1.2, 0.1, 0.18)
+
+material = SubResource("Rust")
+
+[sub_resource type="BoxMesh" id="LightTube"]
+
+size = Vector3(1.08, 0.025, 0.08)
+
+material = SubResource("Porcelain")
+
+[node name="BathroomDecor" type="Node3D"]
+
+[node name="Tank0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.85, 0.73, 0.22)
+
+mesh = SubResource("Tank0")
+
+[node name="Body" type="StaticBody3D" parent="Tank0"]
+
+[node name="Collision" type="CollisionShape3D" parent="Tank0/Body"]
+
+shape = SubResource("Tank0Shape")
+
+[node name="TankLid0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.85, 1.0, 0.22)
+
+mesh = SubResource("TankLid0")
+
+[node name="Flush0" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.02, 0.85, 0.35)
+
+mesh = SubResource("Flush0")
+
+[node name="Pedestal0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.85, 0.22, 0.56)
+
+mesh = SubResource("Pedestal0")
+
+[node name="Bowl0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.85, 0.44, 0.57)
+
+mesh = SubResource("Bowl0")
+
+scale = Vector3(1, 0.7, 1.35)
+
+[node name="Seat0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.85, 0.49, 0.57)
+
+mesh = SubResource("Seat0")
+
+scale = Vector3(1, 0.28, 1.35)
+
+[node name="BowlWater0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.85, 0.37, 0.57)
+
+mesh = SubResource("BowlWater0")
+
+[node name="ToiletBase0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.85, 0.18, 0.53)
+
+mesh = SubResource("ToiletBase0")
+
+[node name="Body" type="StaticBody3D" parent="ToiletBase0"]
+
+[node name="Collision" type="CollisionShape3D" parent="ToiletBase0/Body"]
+
+shape = SubResource("ToiletBase0Shape")
+
+[node name="PaperHolder0" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.47, 0.85, 0.65)
+
+mesh = SubResource("PaperHolder0")
+
+[node name="PaperRoll0" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.44, 0.86, 0.65)
+
+mesh = SubResource("PaperRoll0")
+
+[node name="CubicleReturn0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.31999999999999995, 1.15, 1.65)
+
+mesh = SubResource("CubicleReturn0")
+
+[node name="Body" type="StaticBody3D" parent="CubicleReturn0"]
+
+[node name="Collision" type="CollisionShape3D" parent="CubicleReturn0/Body"]
+
+shape = SubResource("CubicleReturn0Shape")
+
+[node name="Tank1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.35, 0.73, 0.22)
+
+mesh = SubResource("Tank1")
+
+[node name="Body" type="StaticBody3D" parent="Tank1"]
+
+[node name="Collision" type="CollisionShape3D" parent="Tank1/Body"]
+
+shape = SubResource("Tank1Shape")
+
+[node name="TankLid1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.35, 1.0, 0.22)
+
+mesh = SubResource("TankLid1")
+
+[node name="Flush1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.52, 0.85, 0.35)
+
+mesh = SubResource("Flush1")
+
+[node name="Pedestal1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.35, 0.22, 0.56)
+
+mesh = SubResource("Pedestal1")
+
+[node name="Bowl1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.35, 0.44, 0.57)
+
+mesh = SubResource("Bowl1")
+
+scale = Vector3(1, 0.7, 1.35)
+
+[node name="Seat1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.35, 0.49, 0.57)
+
+mesh = SubResource("Seat1")
+
+scale = Vector3(1, 0.28, 1.35)
+
+[node name="BowlWater1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.35, 0.37, 0.57)
+
+mesh = SubResource("BowlWater1")
+
+[node name="ToiletBase1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.35, 0.18, 0.53)
+
+mesh = SubResource("ToiletBase1")
+
+[node name="Body" type="StaticBody3D" parent="ToiletBase1"]
+
+[node name="Collision" type="CollisionShape3D" parent="ToiletBase1/Body"]
+
+shape = SubResource("ToiletBase1Shape")
+
+[node name="PaperHolder1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.97, 0.85, 0.65)
+
+mesh = SubResource("PaperHolder1")
+
+[node name="PaperRoll1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.94, 0.86, 0.65)
+
+mesh = SubResource("PaperRoll1")
+
+[node name="CubicleReturn1" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.82, 1.15, 1.65)
+
+mesh = SubResource("CubicleReturn1")
+
+[node name="Body" type="StaticBody3D" parent="CubicleReturn1"]
+
+[node name="Collision" type="CollisionShape3D" parent="CubicleReturn1/Body"]
+
+shape = SubResource("CubicleReturn1Shape")
+
+[node name="Tank2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.85, 0.73, 0.22)
+
+mesh = SubResource("Tank2")
+
+[node name="Body" type="StaticBody3D" parent="Tank2"]
+
+[node name="Collision" type="CollisionShape3D" parent="Tank2/Body"]
+
+shape = SubResource("Tank2Shape")
+
+[node name="TankLid2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.85, 1.0, 0.22)
+
+mesh = SubResource("TankLid2")
+
+[node name="Flush2" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.0200000000000005, 0.85, 0.35)
+
+mesh = SubResource("Flush2")
+
+[node name="Pedestal2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.85, 0.22, 0.56)
+
+mesh = SubResource("Pedestal2")
+
+[node name="Bowl2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.85, 0.44, 0.57)
+
+mesh = SubResource("Bowl2")
+
+scale = Vector3(1, 0.7, 1.35)
+
+[node name="Seat2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.85, 0.49, 0.57)
+
+mesh = SubResource("Seat2")
+
+scale = Vector3(1, 0.28, 1.35)
+
+[node name="BowlWater2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.85, 0.37, 0.57)
+
+mesh = SubResource("BowlWater2")
+
+[node name="ToiletBase2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.85, 0.18, 0.53)
+
+mesh = SubResource("ToiletBase2")
+
+[node name="Body" type="StaticBody3D" parent="ToiletBase2"]
+
+[node name="Collision" type="CollisionShape3D" parent="ToiletBase2/Body"]
+
+shape = SubResource("ToiletBase2Shape")
+
+[node name="PaperHolder2" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.47, 0.85, 0.65)
+
+mesh = SubResource("PaperHolder2")
+
+[node name="PaperRoll2" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.44, 0.86, 0.65)
+
+mesh = SubResource("PaperRoll2")
+
+[node name="CubicleReturn2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.3200000000000003, 1.15, 1.65)
+
+mesh = SubResource("CubicleReturn2")
+
+[node name="Body" type="StaticBody3D" parent="CubicleReturn2"]
+
+[node name="Collision" type="CollisionShape3D" parent="CubicleReturn2/Body"]
+
+shape = SubResource("CubicleReturn2Shape")
+
+[node name="Partition0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.1, 1.15, 0.85)
+
+mesh = SubResource("Partition0")
+
+[node name="Body" type="StaticBody3D" parent="Partition0"]
+
+[node name="Collision" type="CollisionShape3D" parent="Partition0/Body"]
+
+shape = SubResource("Partition0Shape")
+
+[node name="PartitionFoot0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.1, 0.12, 1.55)
+
+mesh = SubResource("PartitionFoot0")
+
+[node name="Partition1" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.6, 1.15, 0.85)
+
+mesh = SubResource("Partition1")
+
+[node name="Body" type="StaticBody3D" parent="Partition1"]
+
+[node name="Collision" type="CollisionShape3D" parent="Partition1/Body"]
+
+shape = SubResource("Partition1Shape")
+
+[node name="PartitionFoot1" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.6, 0.12, 1.55)
+
+mesh = SubResource("PartitionFoot1")
+
+[node name="Partition2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.1, 1.15, 0.85)
+
+mesh = SubResource("Partition2")
+
+[node name="Body" type="StaticBody3D" parent="Partition2"]
+
+[node name="Collision" type="CollisionShape3D" parent="Partition2/Body"]
+
+shape = SubResource("Partition2Shape")
+
+[node name="PartitionFoot2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.1, 0.12, 1.55)
+
+mesh = SubResource("PartitionFoot2")
+
+[node name="Partition3" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.6, 1.15, 0.85)
+
+mesh = SubResource("Partition3")
+
+[node name="Body" type="StaticBody3D" parent="Partition3"]
+
+[node name="Collision" type="CollisionShape3D" parent="Partition3/Body"]
+
+shape = SubResource("Partition3Shape")
+
+[node name="PartitionFoot3" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.6, 0.12, 1.55)
+
+mesh = SubResource("PartitionFoot3")
+
+[node name="Counter" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 0.85, 4.94)
+
+mesh = SubResource("Counter")
+
+[node name="Body" type="StaticBody3D" parent="Counter"]
+
+[node name="Collision" type="CollisionShape3D" parent="Counter/Body"]
+
+shape = SubResource("CounterShape")
+
+[node name="BasinWell0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.95, 0.916, 4.9)
+
+mesh = SubResource("BasinWell0")
+
+[node name="BasinRim0_Left" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.6299999999999999, 0.94, 4.9)
+
+mesh = SubResource("BasinRim0_Left")
+
+[node name="BasinRim0_1" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.27, 0.94, 4.9)
+
+mesh = SubResource("BasinRim0_1")
+
+[node name="BasinEdge0_Left" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.95, 0.94, 4.69)
+
+mesh = SubResource("BasinEdge0_Left")
+
+[node name="BasinEdge0_1" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.95, 0.94, 5.11)
+
+mesh = SubResource("BasinEdge0_1")
+
+[node name="TapStem0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.95, 1.04, 5.15)
+
+mesh = SubResource("TapStem0")
+
+[node name="TapSpout0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.95, 1.15, 5.06)
+
+mesh = SubResource("TapSpout0")
+
+[node name="DrainPipe0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.95, 0.48, 5.1)
+
+mesh = SubResource("DrainPipe0")
+
+[node name="MirrorFrame0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.95, 1.65, 5.36)
+
+mesh = SubResource("MirrorFrame0")
+
+[node name="Mirror0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.95, 1.65, 5.325)
+
+mesh = SubResource("Mirror0")
+
+[node name="BasinWell1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 0.916, 4.9)
+
+mesh = SubResource("BasinWell1")
+
+[node name="BasinRim1_Left" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.78, 0.94, 4.9)
+
+mesh = SubResource("BasinRim1_Left")
+
+[node name="BasinRim1_1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.42, 0.94, 4.9)
+
+mesh = SubResource("BasinRim1_1")
+
+[node name="BasinEdge1_Left" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 0.94, 4.69)
+
+mesh = SubResource("BasinEdge1_Left")
+
+[node name="BasinEdge1_1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 0.94, 5.11)
+
+mesh = SubResource("BasinEdge1_1")
+
+[node name="TapStem1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 1.04, 5.15)
+
+mesh = SubResource("TapStem1")
+
+[node name="TapSpout1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 1.15, 5.06)
+
+mesh = SubResource("TapSpout1")
+
+[node name="DrainPipe1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 0.48, 5.1)
+
+mesh = SubResource("DrainPipe1")
+
+[node name="MirrorFrame1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 1.65, 5.36)
+
+mesh = SubResource("MirrorFrame1")
+
+[node name="Mirror1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 1.65, 5.325)
+
+mesh = SubResource("Mirror1")
+
+[node name="Crack0" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.9500000000000002, 1.95, 5.315)
+
+mesh = SubResource("Crack0")
+
+rotation = Vector3(0, 0, -0.4)
+
+[node name="Crack1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.0250000000000004, 1.78, 5.315)
+
+mesh = SubResource("Crack1")
+
+rotation = Vector3(0, 0, -0.4)
+
+[node name="Crack2" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1, 1.6099999999999999, 5.315)
+
+mesh = SubResource("Crack2")
+
+rotation = Vector3(0, 0, -0.4)
+
+[node name="Crack3" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.1750000000000003, 1.44, 5.315)
+
+mesh = SubResource("Crack3")
+
+rotation = Vector3(0, 0, -0.4)
+
+[node name="BasinWell2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.25, 0.916, 4.9)
+
+mesh = SubResource("BasinWell2")
+
+[node name="BasinRim2_Left" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.93, 0.94, 4.9)
+
+mesh = SubResource("BasinRim2_Left")
+
+[node name="BasinRim2_1" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.57, 0.94, 4.9)
+
+mesh = SubResource("BasinRim2_1")
+
+[node name="BasinEdge2_Left" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.25, 0.94, 4.69)
+
+mesh = SubResource("BasinEdge2_Left")
+
+[node name="BasinEdge2_1" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.25, 0.94, 5.11)
+
+mesh = SubResource("BasinEdge2_1")
+
+[node name="TapStem2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.25, 1.04, 5.15)
+
+mesh = SubResource("TapStem2")
+
+[node name="TapSpout2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.25, 1.15, 5.06)
+
+mesh = SubResource("TapSpout2")
+
+[node name="DrainPipe2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.25, 0.48, 5.1)
+
+mesh = SubResource("DrainPipe2")
+
+[node name="MirrorFrame2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.25, 1.65, 5.36)
+
+mesh = SubResource("MirrorFrame2")
+
+[node name="Mirror2" type="MeshInstance3D" parent="."]
+
+position = Vector3(3.25, 1.65, 5.325)
+
+mesh = SubResource("Mirror2")
+
+[node name="SoapDispenser" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.05, 1.28, 5.27)
+
+mesh = SubResource("SoapDispenser")
+
+[node name="WasteBin" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.45, 0.27, 4.95)
+
+mesh = SubResource("WasteBin")
+
+[node name="Body" type="StaticBody3D" parent="WasteBin"]
+
+[node name="Collision" type="CollisionShape3D" parent="WasteBin/Body"]
+
+shape = SubResource("WasteBinShape")
+
+[node name="WasteOpening" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.45, 0.545, 4.95)
+
+mesh = SubResource("WasteOpening")
+
+[node name="DampStreak0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.3, 2.0, 0.008)
+
+mesh = SubResource("DampStreak0")
+
+[node name="DampStreak1" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.7, 2.15, 0.008)
+
+mesh = SubResource("DampStreak1")
+
+[node name="DampStreak2" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.8, 2.0, 0.008)
+
+mesh = SubResource("DampStreak2")
+
+[node name="DampStreak3" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.3, 2.15, 0.008)
+
+mesh = SubResource("DampStreak3")
+
+[node name="Puddle0" type="MeshInstance3D" parent="."]
+
+position = Vector3(1, 0.004, 2.1)
+
+mesh = SubResource("Puddle0")
+
+scale = Vector3(1.5, 1, 0.65)
+
+[node name="Puddle1" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.9, 0.004, 3.6)
+
+mesh = SubResource("Puddle1")
+
+scale = Vector3(1.5, 1, 0.65)
+
+[node name="Puddle2" type="MeshInstance3D" parent="."]
+
+position = Vector3(4.3, 0.004, 2.7)
+
+mesh = SubResource("Puddle2")
+
+scale = Vector3(1.5, 1, 0.65)
+
+[node name="Litter0" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.4, 0.009, 4.05)
+
+mesh = SubResource("Litter0")
+
+rotation = Vector3(0, 0.0, 0)
+
+[node name="Litter1" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.63, 0.009, 4.3)
+
+mesh = SubResource("Litter1")
+
+rotation = Vector3(0, 0.7, 0)
+
+[node name="Litter2" type="MeshInstance3D" parent="."]
+
+position = Vector3(0.8600000000000001, 0.009, 4.05)
+
+mesh = SubResource("Litter2")
+
+rotation = Vector3(0, 1.4, 0)
+
+[node name="Litter3" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.09, 0.009, 4.3)
+
+mesh = SubResource("Litter3")
+
+rotation = Vector3(0, 2.0999999999999996, 0)
+
+[node name="Litter4" type="MeshInstance3D" parent="."]
+
+position = Vector3(1.32, 0.009, 4.05)
+
+mesh = SubResource("Litter4")
+
+rotation = Vector3(0, 2.8, 0)
+
+[node name="CeilingFixture" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.8, 3.9, 2.8)
+
+mesh = SubResource("CeilingFixture")
+
+[node name="LightTube" type="MeshInstance3D" parent="."]
+
+position = Vector3(2.8, 3.84, 2.8)
+
+mesh = SubResource("LightTube")
+
+[node name="MirrorReflection" type="ReflectionProbe" parent="."]
+
+position = Vector3(2.9, 1.8, 2.7)
+
+size = Vector3(5.9, 3.9, 5.3)
+
+interior = true
+
+box_projection = true
+
+max_distance = 8.0
+

@@ -11,6 +11,8 @@ static func list() -> Array[Dictionary]:
 			"tooltip": "Weld vertices",
 			"params": [{"key": "threshold", "label": "Threshold", "type": "float",
 				"min": 0.0001, "max": 1.0, "step": 0.0001, "default": 0.001}]},
+		{"id": "dissolve", "label": "Dissolve", "mode": UBSelection.Mode.VERTEX,
+			"tooltip": "Dissolve straight vertices (preserves corners and junctions)"},
 		{"id": "collapse", "label": "Collapse", "mode": UBSelection.Mode.VERTEX,
 			"tooltip": "Collapse vertices"},
 		{"id": "split", "label": "Split", "mode": UBSelection.Mode.VERTEX,

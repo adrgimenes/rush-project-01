@@ -1,0 +1,433 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/props/furniture/FemaleBathroomSouthDecor.tscn" id="fixtures"]
+
+[sub_resource type="StandardMaterial3D" id="Porcelain"]
+
+albedo_color = Color(0.67, 0.68, 0.60, 1)
+
+metallic = 0
+
+roughness = 0.35
+
+[sub_resource type="StandardMaterial3D" id="Chrome"]
+
+albedo_color = Color(0.48, 0.5, 0.51, 1)
+
+metallic = 0.85
+
+roughness = 0.23
+
+[sub_resource type="StandardMaterial3D" id="Dark"]
+
+albedo_color = Color(0.035, 0.045, 0.04, 1)
+
+metallic = 0
+
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="Partition"]
+
+albedo_color = Color(0.22, 0.29, 0.25, 1)
+
+metallic = 0.15
+
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="UrinalBack0"]
+
+size = Vector3(0.12, 0.85, 0.4)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="UrinalBack0Shape"]
+
+size = Vector3(0.12, 0.85, 0.4)
+
+[sub_resource type="BoxMesh" id="UrinalBase0"]
+
+size = Vector3(0.34, 0.18, 0.42)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="UrinalBase0Shape"]
+
+size = Vector3(0.34, 0.18, 0.42)
+
+[sub_resource type="BoxMesh" id="UrinalBasin0"]
+
+size = Vector3(0.23, 0.015, 0.3)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="UrinalFront0"]
+
+size = Vector3(0.06, 0.15, 0.42)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="UrinalSide0_L"]
+
+size = Vector3(0.31, 0.32, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="UrinalSide0_R"]
+
+size = Vector3(0.31, 0.32, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="FlushPipe0"]
+
+size = Vector3(0.035, 0.2, 0.035)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="FlushValve0"]
+
+size = Vector3(0.09, 0.06, 0.08)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="UrinalBack1"]
+
+size = Vector3(0.12, 0.85, 0.4)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="UrinalBack1Shape"]
+
+size = Vector3(0.12, 0.85, 0.4)
+
+[sub_resource type="BoxMesh" id="UrinalBase1"]
+
+size = Vector3(0.34, 0.18, 0.42)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="UrinalBase1Shape"]
+
+size = Vector3(0.34, 0.18, 0.42)
+
+[sub_resource type="BoxMesh" id="UrinalBasin1"]
+
+size = Vector3(0.23, 0.015, 0.3)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="UrinalFront1"]
+
+size = Vector3(0.06, 0.15, 0.42)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="UrinalSide1_L"]
+
+size = Vector3(0.31, 0.32, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="UrinalSide1_R"]
+
+size = Vector3(0.31, 0.32, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="FlushPipe1"]
+
+size = Vector3(0.035, 0.2, 0.035)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="FlushValve1"]
+
+size = Vector3(0.09, 0.06, 0.08)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="UrinalBack2"]
+
+size = Vector3(0.12, 0.85, 0.4)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="UrinalBack2Shape"]
+
+size = Vector3(0.12, 0.85, 0.4)
+
+[sub_resource type="BoxMesh" id="UrinalBase2"]
+
+size = Vector3(0.34, 0.18, 0.42)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxShape3D" id="UrinalBase2Shape"]
+
+size = Vector3(0.34, 0.18, 0.42)
+
+[sub_resource type="BoxMesh" id="UrinalBasin2"]
+
+size = Vector3(0.23, 0.015, 0.3)
+
+material = SubResource("Dark")
+
+[sub_resource type="BoxMesh" id="UrinalFront2"]
+
+size = Vector3(0.06, 0.15, 0.42)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="UrinalSide2_L"]
+
+size = Vector3(0.31, 0.32, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="UrinalSide2_R"]
+
+size = Vector3(0.31, 0.32, 0.04)
+
+material = SubResource("Porcelain")
+
+[sub_resource type="BoxMesh" id="FlushPipe2"]
+
+size = Vector3(0.035, 0.2, 0.035)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="FlushValve2"]
+
+size = Vector3(0.09, 0.06, 0.08)
+
+material = SubResource("Chrome")
+
+[sub_resource type="BoxMesh" id="PrivacyScreen0"]
+
+size = Vector3(0.54, 0.9, 0.035)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="PrivacyScreen0Shape"]
+
+size = Vector3(0.54, 0.9, 0.035)
+
+[sub_resource type="BoxMesh" id="PrivacyScreen1"]
+
+size = Vector3(0.54, 0.9, 0.035)
+
+material = SubResource("Partition")
+
+[sub_resource type="BoxShape3D" id="PrivacyScreen1Shape"]
+
+size = Vector3(0.54, 0.9, 0.035)
+
+[node name="MaleBathroomDecor" type="Node3D"]
+
+[node name="Fixtures" parent="." instance=ExtResource("fixtures")]
+
+scale = Vector3(1, 1, 0.99591)
+
+[node name="UrinalBack0" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.9, 1.0, 0.75)
+
+mesh = SubResource("UrinalBack0")
+
+[node name="Body" type="StaticBody3D" parent="UrinalBack0"]
+
+[node name="Collision" type="CollisionShape3D" parent="UrinalBack0/Body"]
+
+shape = SubResource("UrinalBack0Shape")
+
+[node name="UrinalBase0" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.78, 0.6, 0.75)
+
+mesh = SubResource("UrinalBase0")
+
+[node name="Body" type="StaticBody3D" parent="UrinalBase0"]
+
+[node name="Collision" type="CollisionShape3D" parent="UrinalBase0/Body"]
+
+shape = SubResource("UrinalBase0Shape")
+
+[node name="UrinalBasin0" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.74, 0.695, 0.75)
+
+mesh = SubResource("UrinalBasin0")
+
+[node name="UrinalFront0" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.6, 0.7, 0.75)
+
+mesh = SubResource("UrinalFront0")
+
+[node name="UrinalSide0_L" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.76, 0.79, 0.56)
+
+mesh = SubResource("UrinalSide0_L")
+
+[node name="UrinalSide0_R" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.76, 0.79, 0.94)
+
+mesh = SubResource("UrinalSide0_R")
+
+[node name="FlushPipe0" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.87, 1.5, 0.75)
+
+mesh = SubResource("FlushPipe0")
+
+[node name="FlushValve0" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.84, 1.6, 0.75)
+
+mesh = SubResource("FlushValve0")
+
+[node name="UrinalBack1" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.9, 1.0, 1.95)
+
+mesh = SubResource("UrinalBack1")
+
+[node name="Body" type="StaticBody3D" parent="UrinalBack1"]
+
+[node name="Collision" type="CollisionShape3D" parent="UrinalBack1/Body"]
+
+shape = SubResource("UrinalBack1Shape")
+
+[node name="UrinalBase1" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.78, 0.6, 1.95)
+
+mesh = SubResource("UrinalBase1")
+
+[node name="Body" type="StaticBody3D" parent="UrinalBase1"]
+
+[node name="Collision" type="CollisionShape3D" parent="UrinalBase1/Body"]
+
+shape = SubResource("UrinalBase1Shape")
+
+[node name="UrinalBasin1" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.74, 0.695, 1.95)
+
+mesh = SubResource("UrinalBasin1")
+
+[node name="UrinalFront1" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.6, 0.7, 1.95)
+
+mesh = SubResource("UrinalFront1")
+
+[node name="UrinalSide1_L" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.76, 0.79, 1.76)
+
+mesh = SubResource("UrinalSide1_L")
+
+[node name="UrinalSide1_R" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.76, 0.79, 2.14)
+
+mesh = SubResource("UrinalSide1_R")
+
+[node name="FlushPipe1" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.87, 1.5, 1.95)
+
+mesh = SubResource("FlushPipe1")
+
+[node name="FlushValve1" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.84, 1.6, 1.95)
+
+mesh = SubResource("FlushValve1")
+
+[node name="UrinalBack2" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.9, 1.0, 3.15)
+
+mesh = SubResource("UrinalBack2")
+
+[node name="Body" type="StaticBody3D" parent="UrinalBack2"]
+
+[node name="Collision" type="CollisionShape3D" parent="UrinalBack2/Body"]
+
+shape = SubResource("UrinalBack2Shape")
+
+[node name="UrinalBase2" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.78, 0.6, 3.15)
+
+mesh = SubResource("UrinalBase2")
+
+[node name="Body" type="StaticBody3D" parent="UrinalBase2"]
+
+[node name="Collision" type="CollisionShape3D" parent="UrinalBase2/Body"]
+
+shape = SubResource("UrinalBase2Shape")
+
+[node name="UrinalBasin2" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.74, 0.695, 3.15)
+
+mesh = SubResource("UrinalBasin2")
+
+[node name="UrinalFront2" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.6, 0.7, 3.15)
+
+mesh = SubResource("UrinalFront2")
+
+[node name="UrinalSide2_L" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.76, 0.79, 2.96)
+
+mesh = SubResource("UrinalSide2_L")
+
+[node name="UrinalSide2_R" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.76, 0.79, 3.34)
+
+mesh = SubResource("UrinalSide2_R")
+
+[node name="FlushPipe2" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.87, 1.5, 3.15)
+
+mesh = SubResource("FlushPipe2")
+
+[node name="FlushValve2" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.84, 1.6, 3.15)
+
+mesh = SubResource("FlushValve2")
+
+[node name="PrivacyScreen0" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.7, 1.15, 1.35)
+
+mesh = SubResource("PrivacyScreen0")
+
+[node name="Body" type="StaticBody3D" parent="PrivacyScreen0"]
+
+[node name="Collision" type="CollisionShape3D" parent="PrivacyScreen0/Body"]
+
+shape = SubResource("PrivacyScreen0Shape")
+
+[node name="PrivacyScreen1" type="MeshInstance3D" parent="."]
+
+position = Vector3(5.7, 1.15, 2.55)
+
+mesh = SubResource("PrivacyScreen1")
+
+[node name="Body" type="StaticBody3D" parent="PrivacyScreen1"]
+
+[node name="Collision" type="CollisionShape3D" parent="PrivacyScreen1/Body"]
+
+shape = SubResource("PrivacyScreen1Shape")
